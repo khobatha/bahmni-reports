@@ -502,39 +502,6 @@
             ]
         }
     },
-	"ART Regimens Summary":{
-		"name": "ART Regimens Summary",
-		"DHISProgram": true,
-		"type": "concatenated",
-		"config":{
-			"reports":[
-				{
-					"name": "ART Regimens Summary",
-					"type": "MRSGeneric",
-					"config": {
-						"sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/product_list.sql"
-					}
-				}
-			]
-		}
-	}
-,
-    "HIV Care and treatment 2020a":{
-	"name": "HIV Care and treatment 2020a",
-	"DHISProgram": true,
-	"type": "concatenated",
-	"config": {
-		"reports":[
-			{
-				"name": "HIV Care and treatment 2020a",
-				"type": "MRSGeneric",
-				"config":{
-					"sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/clients_enrolled.sql"
-				}
-			}	
-		]
-	}
-    },
     "pivotReportForPrograms": {
         "name": "HIV Program Pivot Report",
         "type": "aggregation",
@@ -570,29 +537,23 @@
             "showTotalColumn":true
 
         }
-    },                                                                                                                                                                      "concatenatedReport": {                                                                                                                                                     "name": "concatenatedReport",                                                                                                                                                   "DHISProgram": true,                                                                                                                                            "type": "concatenated",                                                                                                                                                 "config": {                                                                                                                                                                 "reports": [                                                                                                                                                                {                                                                                                                                                                           "name": "ART Regimens Summary",                                                                                                                                         "type": "MRSGeneric",                                                                                                                                                   "config": {                                                                                                                                                                 "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/testCount.sql"                                                                                          }                                                                                                                                                                   }                                                                                                                                                                   ]                                                                                                                                                                   }                                                                                                                                                                   },
-																																																																																																																								
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    },
+    "RegimensList": {
+        "name": "Regimens List Report",
+		"DHISProgram": true,
+        "type": "concatenated",
+        "config": {
+            "reports": [
+                {
+                    "name": "Regimens List",
+                    "type": "MRSGeneric",
+                    "config": {
+                        "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/testCount.sql"
+                    }
+                }
+            ]
+        }
+    },
   "GenericLabOrderReport": {
     "name": "Lab Order Results",
     "type": "labOrders",
@@ -631,6 +592,7 @@
   "GenericLabOrderReportAggregation": {
     "name": "Test Name vs Gender",
     "type": "aggregation",
+    "DHISProgram": true,
     "config": {
       "report": {
         "type": "labOrders",
