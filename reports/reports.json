@@ -788,14 +788,22 @@
           "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/tally.sql"
 			}
 	},
-
-  "Nutritional Supplement": {
-      "name": "Nutritional Supplement",
-      "type": "MRSGeneric",
-      "DHISProgram": true,
-      "config": {
-          "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/SECTION9.sql"
-			}
-	}
+	
+   "Nutritional Supplement": {
+        "name": "Nutritional Supplement",
+        "DHISProgram": true,
+        "type": "concatenated",
+        "config": {
+            "reports": [
+                {
+                    "name": "Nutritional Supplement",
+                    "type": "MRSGeneric",
+                    "config": {
+                        "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/SECTION9.sql"
+                    }
+                }
+            ]
+        }
+    }
 
 }
