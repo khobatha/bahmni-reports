@@ -1,546 +1,796 @@
 {
-    "visitReport10": {
-        "name": "Visit Report",
-        "type": "visits",
-        "config": {
-            "forDataAnalysis": true,
-            "patientAttributes": [
-                "caste",
-                "class",
-                "education",
-                "occupation",
-                "primaryContact"
-            ],
-            "visitAttributes": [
-                "Visit Status",
-                "Admission Status"
-            ],
-            "patientAddresses": [
-                "address3",
-                "city_village"
-            ],
-            "applyDateRangeFor": "visitStopDate",
-            "visitTypesToFilter": [
-                "PHARMACY VISIT",
-                "OPD"
-            ]
-        }
-    },
-    "testReport": {
-        "name": "Test Observation Report",
-        "type": "observations",
-        "config": {
-            "patientAttributes": [
-                "caste",
-                "class",
-                "education",
-                "occupation",
-                "primaryContact"
-            ],
-            "patientAddresses": [
-                "address3",
-                "city_village"
-            ],
-            "visitAttributes": [
-                "Visit Status",
-                "Admission Status"
-            ],
-            "showVisitInfo": true,
-            "showProvider": true,
-            "conceptNamesToFilter": [
-            ],
-            "conceptNameDisplayFormat": "shortNamePreferred",
-            "conceptValuesToFilter": ["0..20","100..","True"],
-            "conceptClassesToFilter": [],
-            "locationTagsToFilter": [],
-            "programsToFilter": [],
-            "applyDateRangeFor": "obsDate",
-            "encounterPerRow": true,
-            "forDataAnalysis": true,
-            "visitTypesToFilter": [
-                "PHARMACY VISIT",
-                "OPD"
-            ]
-        }
-    },
-    "testFormReport":{
-    "name": "Test Forms Report",
-    "type": "forms",
+ "txcurrcombinedlist": {
+     "name": "Current on ART Detailed (List)",
+     "type": "MRSGeneric",
      "config": {
-     "patientAttributes": [
-            "caste",
-            "class",
-            "education",
-            "occupation",
-            "primaryContact"
-        ],
-     "patientAddresses": [
-            "address3",
-            "city_village"
-        ],
-     "visitAttributes": [
-            "Visit Status",
-            "Admission Status"
-        ],    
-     "showVisitInfo": true,
-     "showProvider": true,
-     "formNamesToFilter": ["Vitals"],
-     "conceptNameDisplayFormat": "shortNamePreferred",
-     "locationTagsToFilter": [],
-     "programsToFilter": [],
-     "applyDateRangeFor": "obsDate",
-     "visitTypesToFilter": []
+       "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/txcurr_combined_list.sql"
+      }
+     },
+ 
+ "txcurrcombinedpivot": {
+     "name": "Current on ART Detailed (Pivot)",
+     "type": "MRSGeneric",
+     "config": {
+       "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/txcurr_combined_pivot.sql"
+    }
+   }, 
+   
+ "currentonart_jointmissedListSQL": {
+     "name": "ART clients with Appointment Status (List)",
+     "type": "MRSGeneric",
+     "config": {
+       "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/current_on_art_joint_missed_appointments_list.sql"
+    }
+   },
+
+ "currentonart_jointmissedPivotSQL": {
+     "name": "ART clients with Appointment Status (Pivot)",
+     "type": "MRSGeneric",
+     "config": {
+       "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/current_on_art_joint_missed_appointments_pivot.sql"
+    }
+   },
+
+ "PEPFARcurrentonart_jointmissedListSQL": {
+     "name": "ART clients with Appointment Status-28 Days (List)",
+     "type": "MRSGeneric",
+     "config": {
+       "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/current_on_art_joint_missed_appointments_twentyeight_day_list.sql"
+    }
+   },
+
+ "PEPFARcurrentonart_jointmissedPivotSQL": {
+     "name": "ART clients with Appointment Status-28 Days (Pivot)",
+     "type": "MRSGeneric",
+     "config": {
+       "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/current_on_art_joint_missed_appointments_twentyeight_day_pivot.sql"
+    }
+   },
+
+ "Clients_enrolled": {
+     "name": "Clients newly enrolled on ART",
+     "type": "MRSGeneric",
+     "config": {
+       "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/Enrolled.sql"
+    }
+   },
+
+ "regimens": {
+     "name": "Current on ART with regimens (List)",
+     "type": "MRSGeneric",
+     "config": {
+       "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/includeregimen.sql"
+    }
+   },
+   
+ "viralloadresultsstatuslist": {
+     "name": "Viral Load Results Status, within 3 months (List)",
+     "type": "MRSGeneric",
+     "config": {
+       "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/viral_load_list.sql"
+    }
+   },
+
+ "viralloadresultsstatuspivot": {
+     "name": "Viral Load Results Status, within 3 months (Pivot)",
+     "type": "MRSGeneric",
+     "config": {
+       "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/viral_load_pivot.sql"
+    }
+   },   
+
+ "Modified_ART": {
+     "name": "Current on ART with Modified ages (pivot)",
+     "type": "MRSGeneric",
+     "config": {
+       "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/modified_txcurr_pivot.sql"
+    }
+   },
+   
+ "substitutedclientslist": {
+     "name": "Substituted Clients (List)",
+     "type": "MRSGeneric",
+     "config": {
+       "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/substituted_clients_list.sql"
+    }
+   },
+
+ "substitutedclientspivot": {
+     "name": "Substituted Clients (Pivot)",
+     "type": "MRSGeneric",
+     "config": {
+       "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/substituted_clients_pivot.sql"
+    }
+   },
+
+ "switchedclientslist": {
+     "name": "Switched Clients (List)",
+     "type": "MRSGeneric",
+     "config": {
+       "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/switched_clients_list.sql"
+    }
+   },
+
+ "switchedclientspivot": {
+     "name": "Switched Clients (Pivot)",
+     "type": "MRSGeneric",
+     "config": {
+       "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/switched_clients_pivot.sql"
+    }
+   },   
+
+ "htsfinalhivstatusbyservicepointlist": {
+     "name": "HTS Final HIV Status (List)",
+     "type": "MRSGeneric",
+     "config": {
+       "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/hts_final_hiv_status_by_service_point.sql"
+    }
+   },
+
+ "htspitchivstatuswithhistorypivot": {
+     "name": "HTS Final HIV Status PITC (Pivot)",
+     "type": "MRSGeneric",
+     "config": {
+       "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/hts_pitc_hiv_status_with_history_pivot.sql"
+    }
+   },
+
+ "htspitchivstatuswithhistorypivot_tb_art": {
+     "name": "HTS Final HIV Status PITC - TB/ART Clinic (Pivot)",
+     "type": "MRSGeneric",
+     "config": {
+       "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/hts_pitc_hiv_status_with_history_pivot_TB_ART.sql"
+    }
+   },
+
+
+ "htscitchivstatuswithhistorypivot": {
+     "name": "HTS Final HIV Status CITC (Pivot)",
+     "type": "MRSGeneric",
+     "config": {
+       "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/hts_citc_hiv_status_with_history_pivot.sql"
+    }
+   },
+
+	"htspositiveclientslinkedtocarelist": {
+      "name": "HTS Positive Clients with Linkage Status (List)",
+      "type": "MRSGeneric",
+      "config": {
+        "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/hts_positive_clients_linked_to_care_list.sql"
+                }
+        },
+
+  "registeredartclientswithartconsultation_process": {
+      "name": "Registered ART Visits with ART Consultation (List)",
+      "type": "MRSGeneric",
+      "config": {
+        "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/art_clients_registered_vs_client_art_consultation_process_list.sql"
+       }
+      },
+
+ "registeredartclientswithartconsultation_process_pivot": {
+     "name": "Registered ART Visits with ART Consultation (Pivot)",
+     "type": "MRSGeneric",
+     "config": {
+       "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/art_clients_registered_vs_client_art_consultation_process_pivot.sql"
+      }
+     },
+
+ "registeredartclientswithintakes_joinversion": {
+     "name": "Registered ART Clients with Intakes (List)",
+     "type": "MRSGeneric",
+     "config": {
+       "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/art_clients_registered_vs_client_intakes_joinversion_list.sql"
+      }
+     },
+
+ "registeredartclientswithintakes_joinversion_pivot": {
+     "name": "Registered ART Clients with Intakes (Pivot)",
+     "type": "MRSGeneric",
+     "config": {
+       "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/art_clients_registered_vs_client_intakes_joinversion_pivot.sql"
+      }
+     },
+
+ "Nointakes": {
+     "name": "ART Client Without Intakes (List)",
+     "type": "MRSGeneric",
+     "config": {
+       "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/No_intakes.sql"
+      }
+     },
+
+ "TB_Outcomes": {
+     "name": "TB Outcomes (List)",
+     "type": "MRSGeneric",
+     "config": {
+       "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/TB_Outcomes.sql"
+      }
+     },
+
+ "DQA_Tool": {
+     "name": "Data Quality Assessment tool",
+     "type": "MRSGeneric",
+     "config": {
+       "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/monitoring.sql"
+      }
+     },
+
+ "detection_TB": {
+     "name": "TB Case Detection ",
+     "type": "MRSGeneric",
+     "config": {
+       "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/TB_Case_Detection.sql"
+      }
+     },
+
+ "Documented_TB": {
+     "name": "Documented TB/HIV Activities",
+     "type": "MRSGeneric",
+     "config": {
+       "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/Documented_TB.sql"
+      }
+     },
+
+ "Strategy_TB": {
+     "name": "TB Testing Strategy",
+     "type": "MRSGeneric",
+     "config": {
+     "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/testing_strategy.sql"
+      }
+     },
+
+ "Contact_TB": {
+     "name": "TB Contact Tracing and Screening",
+     "type": "MRSGeneric",
+     "config": {
+       "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/TB_contact.sql"
+      }
+     },
+
+ "TB_notification1": {
+      "name": "All TB patients on treatment",
+      "type": "MRSGeneric",
+      "config": {
+        "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/tb_notification_block1.sql"
+      }
+     },
+
+ "TB_notification2": {
+      "name": "New and Relapse Enrolled on TB",
+      "type": "MRSGeneric",
+      "config": {
+        "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/tb_notification_block2.sql"
+      }
+     },
+
+ "HEI": {
+     "name": "HIV Exposed Infants (HEI)",
+     "type": "MRSGeneric",
+     "config": {
+     "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/HEI.sql"
+      }
+     },
+
+ "PNC1": {
+     "name": "Mother Post Natal Care (PNC)",
+     "type": "MRSGeneric",
+     "config": {
+       "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/PNC.sql"
+      }
+     },
+
+ "PNC2": {
+      "name": "Child Post Natal Care (PNC)",
+      "type": "MRSGeneric",
+      "config": {
+      "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/Infant_PNC.sql"
+      }
+     },
+
+ "ANC": {
+     "name": "Ante Natal Care (ANC)",
+     "type": "MRSGeneric",
+     "config": {
+     "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/ANC.sql"
+      }
+     },
+
+ "hts_tst_emergency_list": {
+     "name": "HTS TST PITC Emergency Ward (List)",
+     "type": "MRSGeneric",
+     "config": {
+       "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/egpaf/HTS_TST_Emergency_list.sql"
+      }
+     },
+ 
+  "hts_tst_emergency_pivot": {
+      "name": "HTS TST PITC Emergency Ward (Pivot)",
+      "type": "MRSGeneric",
+      "config": {
+        "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/egpaf/HTS_TST_Emergency_pivot.sql"
+       }
+    },
+ 
+  "hts_tst_peads_list": {
+      "name": "HTS TST PITC Pediatric Service (List)",
+      "type": "MRSGeneric",
+      "config": {
+        "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/egpaf/HTS_TST_Peads_list.sql"
+      }
+    },
+ 
+  "hts_tst_peads_pivot": {
+      "name": "HTS TST PITC Pediatric Service (Pivot)",
+      "type": "MRSGeneric",
+      "config": {
+        "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/egpaf/HTS_TST_Peads_pivot.sql"
+       }
+    },
+ 
+  "hts_tst_sti_list": {
+      "name": "HTS TST PITC STI (List)",
+      "type": "MRSGeneric",
+      "config": {
+        "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/egpaf/HTS_TST_STI_list.sql"
+       }
+      },
+ 
+   "hts_tst_pitc_sti_pivot": {
+       "name": "HTS TST PITC STI (Pivot)",
+       "type": "MRSGeneric",
+       "config": {
+         "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/egpaf/HTS_TST_STI_pivot.sql"
+       }
+      },
+ 
+   "hts_tst_inpatient_list": {
+       "name": "HTS TST PITC Inpatient (List)",
+       "type": "MRSGeneric",
+       "config": {
+         "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/egpaf/HTS_TST_Inpatient_list.sql"
+       }
+      },
+ 
+   "hts_tst_inpatient_pivot": {
+       "name": "HTS TST PITC Inpatient (Pivot)",
+        "type": "MRSGeneric",
+        "config": {
+          "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/egpaf/HTS_TST_Inpatient_pivot.sql"
+       }
+      },
+ 
+   "hts_tst_malnutrition_list": {
+       "name": "HTS TST PITC Malnutrition (List)",
+       "type": "MRSGeneric",
+       "config": {
+         "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/egpaf/HTS_TST_Malnutrition_list.sql"
+       }
+      },
+   "hts_tst_malnutrition_pivot": {
+       "name": "HTS TST PITC Mulnutrition (Pivot)",
+       "type": "MRSGeneric",
+       "config": {
+         "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/egpaf/HTS_TST_Malnutrition_pivot.sql"
+       }
+      },
+ 
+   "hts_tst_postANC1_list": {
+       "name": "HTS TST PITC POST ANC1 (List)",
+       "type": "MRSGeneric",
+       "config": {
+         "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/egpaf/HTS_TST_PostANC_list.sql"
+       }
+      },
+ 
+   "hts_tst_postANC1_pivot": {
+       "name": "HTS TST PITC POST ANC1 (Pivot)",
+       "type": "MRSGeneric",
+       "config": {
+         "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/egpaf/HTS_TST_PostANC_pivot.sql"
+       }
+      },
+ 
+   "pmtct_stat_denominator_list": {
+       "name": "PMTCT STAT DINOMINATOR (List)",
+       "type": "MRSGeneric",
+       "config": {
+         "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/egpaf/PMTCT_STAT_Denominator_list.sql"
+       }
+      },
+ 
+   "pmtct_stat_denominator_pivot": {
+       "name": "PMTCT STAT DINOMINATOR (Pivot)",
+       "type": "MRSGeneric",
+       "config": {
+         "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/egpaf/PMTCT_STAT_Denominator_pivot.sql"
+       }
+      },
+   "pmtct_stat_list": {
+       "name": "PMTCT STAT (List)",
+       "type": "MRSGeneric",
+       "config": {
+         "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/egpaf/PMTCT_STAT_list.sql"
+       }
+      },
+ 
+   "pmtct_stat_pivot": {
+       "name": "PMTCT STAT (Pivot)",
+       "type": "MRSGeneric",
+       "config": {
+         "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/egpaf/PMTCT_STAT_pivot.sql"
+       }
+      },
+ 
+ 
+  "hts_tst_vmmc_list": {
+      "name": "HTS TST VMMC (List)",
+      "type": "MRSGeneric",
+      "config": {
+        "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/egpaf/HTS_TST_VMMC_list.sql"
+       }
+      },
+ 
+   "hts_tst_vmmc_pivot": {
+       "name": "HTS TST VMMC (Pivot)",
+       "type": "MRSGeneric",
+       "config": {
+         "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/egpaf/HTS_TST_VMMC_pivot.sql"
+       }
+      },
+ 
+   "pmtct_eid_list": {
+       "name": " PMTCT EID (List)",
+       "type": "MRSGeneric",
+       "config": {
+         "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/egpaf/PMTCT_EID_list.sql"
+       }
+      },
+ 
+   "pmtct_eid_pivot": {
+       "name": "PMTCT EID (PIVOT)",
+       "type": "MRSGeneric",
+       "config": {
+         "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/egpaf/PMTCT_EID_pivot.sql"
+       }
+      },
+ 
+   "tb_stat_list": {
+       "name": "TB Status (List)",
+       "type": "MRSGeneric",
+       "config": {
+         "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/egpaf/TB_STAT_list.sql"
+         }
+        },
+  "tb_stat_pivot": {
+      "name": "TB Status (Pivot)",
+      "type": "MRSGeneric",
+      "config": {
+        "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/egpaf/TB_STAT_pivot.sql"
+         }
+        },
+  
+  "pmtct_hei_pos_list": {
+      "name": " PMTCT HEI POS (List)",
+      "type": "MRSGeneric",
+      "config": {
+        "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/egpaf/PMTCT_HEI_POS_list.sql"
+       }
+      },
+ 
+  "pmtct_hei_pos_pivot": {
+      "name": "PMTCT HEI POS (Pivot)",
+      "type": "MRSGeneric",
+      "config": {
+        "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/egpaf/PMTCT_HEI_POS_pivot.sql"
+       }
+      },
+
+ "hts_tst_other_pivot": {
+     "name":"HTS TST OTHER  (List)",
+     "type": "MRSGeneric",
+     "config": {
+       "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/egpaf/HTS_TST_Other_list.sql"
+      }
+     },
+   
+ "hts_tst_other_list": {
+     "name": "HTS TST OTHER (Pivot)",
+     "type": "MRSGeneric",
+     "config": {
+       "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/egpaf/HTS_TST_Other_pivot.sql"
+      }
+     },
+     "clientsofferedindex": {
+      "name": "Clients offered indexing (List)",
+      "type": "MRSGeneric",
+      "config": {
+        "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/egpaf/index_cases_offered_indexing_list.sql"
      }
     },
-    "formBuilderReport":{
-        "name": "Form builder form Report",
-        "type": "formBuilder",
-        "config": {
-            "patientAttributes": [
-                "caste",
-                "class",
-                "education",
-                "occupation"
-            ],
-            "patientAddresses": [
-                "address3",
-                "city_village"
-            ],
-            "visitAttributes": [
-                "Visit Status"
-            ],
-            "showVisitInfo": true,
-            "showProvider": true,
-            "formNamesToFilter": [ "Test Form"],
-            "conceptNameDisplayFormat": "shortNamePreferred",
-            "locationTagsToFilter": [],
-            "programsToFilter": [],
-            "applyDateRangeFor": "obsDate",
-            "visitTypesToFilter": []
-        }
+ 
+ "clientsofferedindex_pivot": {
+     "name": "Clients offered indexing ( Pivot )",
+     "type": "MRSGeneric",
+     "config": {
+       "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/egpaf/index_cases_offered_indexing_pivot.sql"
+     }
     },
-    "chiefComplaintReport": {
-        "name": "Chief Complaint Report",
-        "type": "obsCount",
-        "config": {
-            "ageGroupName": "All Ages",
-            "conceptNames": [
-                "Chief Complaint"
-            ],
-            "countOnlyClosedVisits": "false",
-            "visitTypes": [
-                "IPD",
-                "OPD"
-            ]
-        }
+ 
+ "hts_tst_accepted_index_list": {
+     "name": "Clients accepted indexing (List)",
+     "type": "MRSGeneric",
+     "config": {
+       "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/egpaf/index_cases_accepted_indexing_list.sql"
+     }
     },
-    "inpatientMorbidity": {
-        "name": "Inpatient Morbidity",
-        "type": "diagnosisCount",
-        "config": {
-            "visitTypes": [
-                "IPD"
-            ]
-        }
+ "hts_tst_accepted_index_pivot": {
+     "name": "Clients accepted indexing (Pivot)",
+     "type": "MRSGeneric",
+     "config": {
+            "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/egpaf/index_cases_accepted_indexing_pivot.sql"
+     }
     },
-    "outpatientMorbidity": {
-        "name": "Outpatient Morbidity",
-        "type": "diagnosisCount",
-        "config": {
-            "visitTypes": [
-                "OPD"
-            ]
-        }
-    },
-    "laboratoryServices": {
-        "name": "Laboratory Services",
-        "type": "TestCount"
-    },
-    "genericLaboratoryServices": {
-        "name": "Generic Laboratory Services",
-        "type": "ElisGeneric",
-        "config": {
-            "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/testCount.sql"
-        }
-    },
-    "bloodPressure": {
-        "name": "Blood Pressure",
-        "type": "obsCount",
-        "config": {
-            "ageGroupName": "All Ages",
-            "conceptNames": [
-                "Systolic",
-                "Diastolic"
-            ],
-            "countOnlyClosedVisits": "false",
-            "countOncePerPatient": "false",
-            "visitTypes": [
-                "OPD",
-                "IPD"
-            ]
-        }
-    },
-    "smokingHistoryReport": {
-        "name": "Smoking History Report",
-        "type": "obsCount",
-        "config": {
-            "ageGroupName": "All Ages",
-            "conceptNames": [
-                "Smoking History"
-            ],
-            "countOnlyClosedVisits": "false",
-            "countOncePerPatient": "true"
-        }
-    },
-    "vitalsTemplateReport": {
-        "name": "Vitals Template Report",
-        "type": "obsTemplate",
-        "config": {
-            "templateName": "Vitals",
-            "patientAttributes": [
-                "caste",
-                "education"
-            ],
-            "applyDateRangeFor": "encounterCreateDate"
-        }
-    },
-    "tuberculosisIntakeTemplateReport": {
-        "name": "Tuberculosis Intake Template Report",
-        "type": "obsTemplate",
-        "config": {
-            "templateName": "Tuberculosis Intake Template"
-        }
-    },
-    "diabetes": {
-        "name": "Diabetes",
-        "type": "obsCount",
-        "config": {
-            "ageGroupName": "All Ages",
-            "conceptNames": [
-                "Diabetes Intake"
-            ],
-            "visitTypes": [
-                "OPD",
-                "IPD"
-            ]
-        }
-    },
-    "codedValueRangeBasedReport": {
-        "name": "Coded Value Range Based Report",
-        "type": "obsCount",
-        "config": {
-            "ageGroupName": "All Ages",
-            "conceptNames": [
-                "Diabetes, Cormorbidities"
-            ],
-            "countOncePerPatient": "true"
-        }
-    },
-    "OPD/IPDVisitCount": {
-        "name": "OPD/IPD Visit Count",
-        "type": "IpdOpdVisitCount"
-    },
-    "haemoglobinRangeBasedReport": {
-        "name": "Haemoglobin Range Based Report",
-        "type": "NumericConceptValuesCount",
-        "config": {
-            "rangeGroupName": "Haemoglobin",
-            "ageGroupName": "Haemoglobin",
-            "conceptNames": [
-                "Haemoglobin"
-            ],
-            "countOncePerPatient": "false"
-        }
-    },
-    "radiology(X-Ray)Count": {
-        "name": "Radiology(X-Ray) Count",
-        "type": "ObsCountByConceptClass",
-        "config": {
-            "conceptClassNames": [
-                "Radiology"
-            ]
-        }
-    },
-    "obsValuesCountsForAlbuminMCHOperationDateAndPosture(bloodPressure)": {
-        "name": "Obs Values Counts for Albumin, MCH, Operation Date and Posture(blood pressure)",
-        "type": "ObsValueCount",
-        "config": {
-            "conceptNames": [
-                "Albumin",
-                "MCH",
-                "Date of Operation",
-                "Posture"
-            ]
-        }
-    },
-    "tuberculosisTreatmentCompletionDates": {
-        "name": "Tuberculosis Treatment Completion dates",
-        "type": "DateConceptValuesPatientsList",
-        "config": {
-            "conceptNames": [
-                "Tuberculosis, Treatment Completion Date"
-            ],
-            "templateName": "Tuberculosis Outcome Template"
-        }
-    },
-    "patientsListWithAlbuminMCHAndHIVELISA(Blood)TestsResults": {
-        "name": "Patients list with Albumin, MCH and HIV ELISA (Blood) tests results",
-        "type": "PatientsWithLabtestResults",
-        "config": {
-            "conceptNames": [
-                "HIV ELISA (Blood)",
-                "Albumin",
-                "MCH"
-            ],
-            "testOutcome": [
-                "abnormal",
-                "normal"
-            ]
-        }
-    },
-    "IPDPatientsReport": {
-        "name": "IPD Patients Report",
-        "type": "ipdPatients",
-        "config": {
-            "addressAttributes": [
-                "address1",
-                "city_village"
-            ],
-            "patientAttributes": [
-                "caste",
-                "education"
-            ],
-            "conceptNames": [
-                "Height",
-                "Weight"
-            ],
-            "filterBy": "Date of Discharge"
-        }
-    },
-    "nutritionProgramNutritionalStatusOfRegisteredChildren": {
-        "name": "Nutrition Program - Nutritional status of registered children",
-        "type": "obsCount",
-        "config": {
-            "ageGroupName": "All Ages",
-            "conceptNames": [
-                "Nutrition, Nutritional Status"
-            ],
-            "countOncePerPatient": "true",
-            "countOnlyClosedVisits": "false"
-        }
-    },
-    "patientsProgramStateCountReport": {
-        "name": "Patients Program State Count Report",
-        "type": "programStateCount",
-        "config": {
-            "programName": "Malaria Program"
-        }
-    },
-    "programPatientStateReport": {
-        "name": "Program Patient State Report",
-        "type": "PatientProgramReport",
-        "config": {
-            "programName": "Malaria Program"
-        }
-    },
-    "programStateTransitionReport": {
-        "name": "Program State Transition Report",
-        "type": "programStateTransitionReport",
-        "config": {
-            "programName": "Malaria Program"
-        }
-    },
-    "OrderFulfillmentReport": {
-        "name": "Order Fulfillment Report",
-        "type": "OrderFulfillmentReport",
-        "config": {
-            "type": "OrderFulfillmentReport",
-            "orderTypes": [
-                "Order",
-                "Drug Order"
-            ]
-        }
-    },
-    "visitReport": {
-        "name": "Visit Report",
-        "type": "visitReport",
-        "config": {
-            "personAttributes": [
-                "caste",
-                "class",
-                "education",
-                "occupation",
-                "primaryContact"
-            ],
-            "visitAttributes": [
-                "Visit Status"
-            ]
-        }
-    },
-    "patientReport": {
-        "name": "Patient Information",
-        "type": "PatientReport"
-    },
-    "obsCannedReport": {
-        "name": "Obs Canned Report",
-        "type": "obsCannedReport",
-        "config": {
-            "patientAttributes": [
-                "caste",
-                "education"
-            ],
-            "applyDateRangeFor": "ObsRecording",
-            "addressAttributes": [
-                "postal_code",
-                "city_village"
-            ],
-            "conceptNames": [
-                "Pulse",
-                "WEIGHT",
-                "Vitals, Systolic",
-                "Temperature"
-            ],
-            "visitIndependentConcept": [
-                "HEIGHT",
-                "Temperature"
-            ],
-            "enrolledProgram": "HIV Program",
-            "showObsOnlyForProgramDuration": false
-        }
-    },
-    "drugOrderReport": {
-        "name": "Drug Order report",
-        "type": "DrugOrder"
-    },
-    "SampleGenericProgramReport": {
-        "name": "Generic program sample report",
-        "type": "programs",
-        "config": {
-            "patientAttributes": [
-                "education",
-                "primaryContact",
-                "secondaryContact",
-                "class",
-                "cluster"
-            ],
-            "patientAddresses": [
-                "city_village",
-                "address3"
-            ],
-            "programAttributes": [],
-            "forDataAnalysis": true,
-            "showAllStates": true,
-            "programNamesToFilter": [
-                "HIV Program"
-            ]
-        }
-    },
-    "pivotReport": {
-        "name": "Blood Pressure",
-        "type": "aggregation",
-        "config": {
-            "report":{
-                "type": "observations",
-                "config": {
-                    "conceptNamesToFilter":["Diastolic Data", "Systolic Data"],
-                    "showVisitInfo" : true,
-                    "forDataAnalysis": true,
-                    "visitAttributes": ["Visit Status", "Admission Status"],
-                    "visitTypesToFilter": ["IPD"]
 
-                }
-            },
-            "rowGroups": [
-                "Gender"
-            ],
-            "columnGroups": [
-                "Concept Name", "value"
-            ],
-            "distinctGroups": [
-                "Patient Identifier"
-            ]
-        }
-    },
-    "pivotReportOfVisits": {
-        "name": "Aggregation report for visits",
-        "type": "aggregation",
-        "config": {
-            "report":{
-                "type": "visits",
-                "config": {
-                    "forDataAnalysis": true,
-                    "patientAttributes": [
-                        "caste",
-                        "class",
-                        "education",
-                        "occupation",
-                        "primaryContact"
-                    ],
-                    "visitAttributes": [
-                        "Visit Status",
-                        "Admission Status"
-                    ],
-                    "patientAddresses": [
-                        "address3",
-                        "city_village"
-                    ],
-                    "applyDateRangeFor": "visitStopDate",
-                    "visitTypesToFilter": [
-                        "PHARMACY VISIT",
-                        "OPD"
-                    ]
-                }
-            },
-            "rowGroups": [
-                "Gender"
-            ],
-            "columnGroups": [
-                "Visit Status"
-            ],
-            "distinctGroups": [
-                "Patient Identifier"
-            ]
-        }
-    },
-    "pivotReportForPrograms": {
-        "name": "HIV Program Pivot Report",
-        "type": "aggregation",
-        "config": {
-            "report": {
-                "type": "programs",
-                "config": {
-                    "patientAttributes": [
-                    ],
-                    "patientAddresses": [
-                        "city_village",
-                        "address3"
-                    ],
-                    "programAttributes": [],
-                    "forDataAnalysis": true,
-                    "showAllStates": true,
-                    "programNamesToFilter": [
-                        "TB Program",
-                        "HIV Program"
-                    ]
-                }
-            },
-            "columnGroups": [
-                "Program name"
-            ],
-            "rowGroups": [
-                "Gender"
-            ],
-            "distinctGroups": [
-                "Patient Identifier"
-            ],
-            "showTotalRow":true,
-            "showTotalColumn":true
+ "tb_enrolled": {
+     "name": "New and Relapse Enrolled on TB (List)",
+     "type": "MRSGeneric",
+     "config": {
+       "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/egpaf/TB_Enrolled_list.sql"
+      }
+     },
 
-        }
+  "tb_art_list": {
+  "name": "DSD TB_ART (List)",
+  "type": "MRSGeneric",
+  "config": {
+    "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/egpaf/TB_Enrolled_list.sql"
+    }
+  },
+
+  "tb_art_pivot": {
+    "name": "DSD TB_ART (PIVOT)",
+    "type": "MRSGeneric",
+    "config": {
+      "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/egpaf/TB_Enrolled_list.sql"
+      }
     },
-    "Regimens List": {
+
+  "txnew_list": {
+      "name": "TX_NEW (List)",
+      "type": "MRSGeneric",
+      "config": {
+          "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/egpaf/TX_NEW.sql"
+      }
+  },
+
+  "txnew_pivot": {
+       "name": "TX_NEW (PIVOT)",
+       "type": "MRSGeneric",
+       "config": {
+           "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/egpaf/TX_NEW_Pivot.sql"
+       }
+  },
+
+"txnew_coarseages": {
+     "name": "Tx new Coarse Ages",
+     "type": "MRSGeneric",
+     "config": {
+       "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/egpaf/txnew_coarseages.sql"
+    }
+   },
+   
+   "txnew_coarse_ages_pivot": {
+     "name": "Tx new Coarse Ages(Pivot)",
+     "type": "MRSGeneric",
+     "config": {
+       "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/egpaf/txnew_coarseages_pivot.sql"
+    }
+   },
+ 
+ "cxca_txpivot": {
+     "name": "CXCA_TX (Pivot)",
+     "type": "MRSGeneric",
+     "config": {
+       "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/egpaf/cxca_treatment_pivot.sql"
+      }
+     },
+
+  "cxca_txlist": {
+     "name": "CXCA_TX (List)",
+     "type": "MRSGeneric",
+     "config": {
+       "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/egpaf/cxca_treatment_list.sql"
+      }
+     },
+
+ "tx_tb_diagnostic": {
+     "name": "TX TB Diagnostic",
+     "type": "MRSGeneric",
+     "config": {
+       "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/egpaf/TX_TB_diagnostic.sql"
+      }
+     },
+ 
+ "tx_tb_numerator": {
+     "name": "TX TB Numerator",
+     "type": "MRSGeneric",
+     "config": {
+       "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/egpaf/TX_TB_Numerator.sql"
+      }
+     },
+
+
+"tx_tb_result_combined": {
+     "name": "TX TB Screen Combined (Pivot)",
+     "type": "MRSGeneric",
+     "config": {
+       "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/egpaf/tx_tb_nume_pivot.sql"
+      }
+     },
+ "tx_tb_diagnostic_pos": {
+     "name": "TX TB Diagnostic Test Positive",
+     "type": "MRSGeneric",
+     "config": {
+       "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/egpaf/TX_TB_diagnostic.sql"
+      }
+     },
+	
+	
+  "txcurrcombinedpivot_pepfar": {
+      "name": "TX_CURR (Pivot)",
+      "type": "MRSGeneric",
+      "config": {
+          "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/egpaf/txcurr_combined_pivot.sql"
+      }
+  },
+  
+  "txcurrcombinedlist_perfar": {
+      "name": "TX_CURR (List)",
+      "type": "MRSGeneric",
+      "config": {
+          "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/egpaf/txcurr_combined_list.sql"
+      }
+  },
+
+  "txcurrmmd_list": {
+      "name": "TX_CURR MMD (List)",
+      "type": "MRSGeneric",
+      "config": {
+          "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/egpaf/txcurr_mmd_list.sql"
+      }
+  },
+
+  "txcurrmmd_pivot": {
+      "name": "TX_CURR MMD (PIVOT)",
+      "type": "MRSGeneric",
+      "config": {
+          "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/egpaf/txcurr_mmd_pivot.sql"
+      }
+  },
+
+  "txcurrcoarse_list": {
+      "name": "TX_CURR Coarse Ages (List)",
+      "type": "MRSGeneric",
+      "config": {
+          "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/egpaf/txcurr_coarseages_list.sql"
+      }
+  },
+
+  "txcurrcoarse_pivot": {
+      "name": "TX_CURR Coarse Ages (Pivot)",
+      "type": "MRSGeneric",
+      "config": {
+          "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/egpaf/txcurr_coarseages_pivot.sql"
+      }
+  },
+  
+  "txrtt_list": {
+      "name": "TX_RTT (List)",
+      "type": "MRSGeneric",
+      "config": {
+          "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/egpaf/txrtt_restart_list.sql"
+      }
+  },
+
+  "txrtt_pivot": {
+      "name": "TX_RTT (Pivot)",
+      "type": "MRSGeneric",
+      "config": {
+          "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/egpaf/txrtt_restart_pivot.sql"
+      }
+  },
+  
+  "txml_list": {
+      "name": "TX_ML (List)",
+      "type": "MRSGeneric",
+      "config": {
+          "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/egpaf/tx_ml_list.sql"
+      }
+  },
+
+  "txml_pivot": {
+      "name": "TX_ML (Pivot)",
+      "type": "MRSGeneric",
+      "config": {
+          "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/egpaf/tx_ml_pivot.sql"
+      }
+  }, 
+
+  "txpvlsnum_list": {
+      "name": "TX_PVLS Numerator (List)",
+      "type": "MRSGeneric",
+      "config": {
+          "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/egpaf/txpvls_numerator_list.sql"
+      }
+  },
+
+  "txpvlsnum_pivot": {
+      "name": "TX_PVLS Numerator (Pivot)",
+      "type": "MRSGeneric",
+      "config": {
+          "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/egpaf/txpvls_numerator_pivot.sql"
+      }
+  },
+
+  "txpvlsdenom_list": {
+      "name": "TX_PVLS Denominator (List)",
+      "type": "MRSGeneric",
+      "config": {
+          "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/egpaf/txpvls_denominator_list.sql"
+      }
+  },
+
+  "txpvlsdenom_pivot": {
+      "name": "TX_PVLS Denominator (Pivot)",
+      "type": "MRSGeneric",
+      "config": {
+          "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/egpaf/txpvls_denominator_pivot.sql"
+      }
+  },
+
+  "regimen_list": {
+      "name": "Regimen from ERP (List)",
+      "type": "ERPGeneric",
+      "config": {
+          "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/odoo_regimen.sql"
+      }
+  },
+
+  "arv_list": {
+      "name": "Pharmacy ARV Regimen",
+      "type": "ERPGeneric",
+      "config": {
+          "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/ARVs.sql"
+      }
+  },
+
+  "arv_dispensing_list": {
+      "name": " Pharmacy ARV Dispensing Report",
+      "type": "ERPGeneric",
+      "config": {
+          "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/arv_dispensing.sql"
+		  }
+      },
+
+  "batch_numbers": {
+      "name": " Dispensing Orders report",
+      "type": "ERPGeneric",
+      "config": {
+          "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/batch.sql"
+			}
+	},
+
+  "tally_numbers": {
+      "name": " Daily Dispensing Tally Sheet",
+      "type": "ERPGeneric",
+      "config": {
+          "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/tally.sql"
+			}
+	},
+ "Regimens List": {
         "name": "Regimens List",
-		"DHISProgram": true,
+                "DHISProgram": true,
         "type": "concatenated",
         "config": {
             "reports": [
@@ -548,84 +798,11 @@
                     "name": "Regimens List",
                     "type": "MRSGeneric",
                     "config": {
-                        "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/testCount.sql"
+                        "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/regimenCount.sql"
                     }
                 }
             ]
         }
-    },
-	 "HIV Care and treatment 2020a": {
-        "name": "HIV Care and treatment 2020a",
-		"DHISProgram": true,
-        "type": "concatenated",
-        "config": {
-            "reports": [
-                {
-                    "name": "Nutritional Supplement",
-                    "type": "MRSGeneric",
-                    "config": {
-                        "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/SECTION9.sql"
-                    }
-                }
-            ]
-        }
-    },
-  "GenericLabOrderReport": {
-    "name": "Lab Order Results",
-    "type": "labOrders",
-    "config": {
-      "patientAttributes": [
-        "caste",
-        "class",
-        "education",
-        "occupation",
-        "primaryContact"
-      ],
-      "patientAddresses": [
-        "address3",
-        "city_village"
-      ],
-      "visitAttributes": [
-        "Visit Status"
-      ],
-      "showVisitInfo": true,
-      "showProvider": true,
-      "programsToFilter": [],
-      "showReferredOutTests": true,
-      "conceptNamesToFilter": [
-        "Haemoglobin (Blood)"
-      ],
-      "conceptValuesToFilter": [
-        "10..100"
-      ],
-      "forDataAnalysis": true,
-      "excludeColumns": [
-        "address3"
-      ],
-      "showOrderDateTime": true
     }
-  },
-  "GenericLabOrderReportAggregation": {
-    "name": "Test Name vs Gender",
-    "type": "aggregation",
-    "DHISProgram": true,
-    "config": {
-      "report": {
-        "type": "labOrders",
-        "config": {
-          "forDataAnalysis": true,
-          "showVisitInfo": true
-        }
-      },
-      "rowGroups": [
-        "Test Name"
-      ],
-      "columnGroups": [
-        "Gender"
-      ],
-      "distinctGroups": [
-        "Patient Identifier"
-      ]
-    }
-  }
+
 }
