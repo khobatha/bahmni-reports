@@ -788,9 +788,10 @@
           "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/tally.sql"
 			}
 	},
- "Regimens List": {
+	
+   "Regimens List": {
         "name": "Regimens List",
-                "DHISProgram": true,
+        "DHISProgram": true,
         "type": "concatenated",
         "config": {
             "reports": [
@@ -803,6 +804,15 @@
                 }
             ]
         }
-    }
+    },
+
+	"hiv_care_section9": {
+      "name": "HIV Care Nutritional Supplement",
+	  "DHISProgram": true,
+      "type": "ERPGeneric",
+      "config": {
+          "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/SECTION9.sql"
+			}
+	}
 
 }
