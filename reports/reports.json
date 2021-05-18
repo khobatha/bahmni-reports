@@ -789,9 +789,10 @@
 			}
 	},
 
-  "hiv_care_nutritional_supplement": {
-      "name": " Nutritional Supplement",
-      "type": "ERPGeneric",
+  "Nutritional Supplement": {
+      "name": "Nutritional Supplement",
+      "type": "MRSGeneric",
+      "DHISProgram": true,
       "config": {
           "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/SECTION9.sql"
 			}
