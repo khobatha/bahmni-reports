@@ -787,6 +787,14 @@
       "config": {
           "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/tally.sql"
 			}
+	},
+
+  "hiv_care_nutritional_supplement": {
+      "name": " Nutritional Supplement",
+      "type": "ERPGeneric",
+      "config": {
+          "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/SECTION9.sql"
+			}
 	}
 
 }
