@@ -789,6 +789,25 @@
 			}
 	},
 	
+   "Clients Who Received Cotrimox Prophylaxis": {
+        "name": "Clients Who Received Cotrimox Prophylaxis", 
+        "DHISProgram": true,
+        "type": "concatenated",
+        "config": {
+            "reports": [
+                {
+                    "name": "Clients Who Received Cotrimox Prophylaxis",
+                    "type": "MRSGeneric",
+                    "config": {
+                        "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/SECTION8.sql"
+                    }
+                }
+            ]
+        }
+    }
+	
+	,
+	
    "Nutritional Supplement": {
         "name": "Nutritional Supplement",
         "DHISProgram": true,
