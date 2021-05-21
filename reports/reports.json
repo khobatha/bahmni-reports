@@ -808,14 +808,14 @@
 	
 	,
 	
-   "Nutritional Supplement": {
-        "name": "Nutritional Supplement",
+   "Adult and Children on Nutritional Supplement": {
+        "name": "Adult and Children on Nutritional Supplement",
         "DHISProgram": true,
         "type": "concatenated",
         "config": {
             "reports": [
                 {
-                    "name": "Nutritional Supplement",
+                    "name": "Adult and Children on Nutritional Supplement",
                     "type": "MRSGeneric",
                     "config": {
                         "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/SECTION9.sql"
