@@ -789,6 +789,23 @@
 			}
 	},
 	
+	"Regimens List": {
+        "name": "Regimens List",
+        "DHISProgram": true,
+        "type": "concatenated",
+        "config": {
+            "reports": [
+                {
+                    "name": "Regimens List",
+                    "type": "MRSGeneric",
+                    "config": {
+                        "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/regimenCount.sql"
+                    }
+                }
+            ]
+        }
+    },
+	
    "Clients Who Received Cotrimox Prophylaxis": {
         "name": "Clients Who Received Cotrimox Prophylaxis", 
         "DHISProgram": true,
