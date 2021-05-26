@@ -806,6 +806,25 @@
         }
     },
 	
+	"TB Prevention Therapy (TPT)": {
+        "name": "TB Prevention Therapy (TPT)", 
+        "DHISProgram": true,
+        "type": "concatenated",
+        "config": {
+            "reports": [
+                {
+                    "name": "TB Prevention Therapy (TPT)",
+                    "type": "MRSGeneric",
+                    "config": {
+                        "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/SECTION7.sql"
+                    }
+                }
+            ]
+        }
+    }
+	
+	,
+	
    "Clients Who Received Cotrimox Prophylaxis": {
         "name": "Clients Who Received Cotrimox Prophylaxis", 
         "DHISProgram": true,
