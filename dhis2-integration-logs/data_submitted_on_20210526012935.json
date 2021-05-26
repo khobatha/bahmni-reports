@@ -1,0 +1,149 @@
+{
+ "request": {
+  "dataValues": [
+   {
+    "column": 1,
+    "categoryOptionCombo": "gIRokZTOVff",
+    "dataElement": "Z49zo2sYBI8",
+    "row": 1,
+    "value": "F100"
+   },
+   {
+    "column": 1,
+    "categoryOptionCombo": "gIRokZTOVff",
+    "dataElement": "XZDUQ4eARGM",
+    "row": 2,
+    "value": "F75"
+   },
+   {
+    "column": 1,
+    "categoryOptionCombo": "gIRokZTOVff",
+    "dataElement": "W0Iokwlb7Eb",
+    "row": 3,
+    "value": "Other_Nutritional_Supplements"
+   },
+   {
+    "column": 1,
+    "categoryOptionCombo": "gIRokZTOVff",
+    "dataElement": "tQEb7MCgsZL",
+    "row": 4,
+    "value": "Plumpy_Nut"
+   },
+   {
+    "column": 1,
+    "categoryOptionCombo": "gIRokZTOVff",
+    "dataElement": "zZ458qXHCeO",
+    "row": 5,
+    "value": "Super_Cereal"
+   },
+   {
+    "column": 2,
+    "categoryOptionCombo": "WBH8uUpt9Pj",
+    "dataElement": "Z49zo2sYBI8",
+    "row": 1,
+    "value": "0"
+   },
+   {
+    "column": 2,
+    "categoryOptionCombo": "WBH8uUpt9Pj",
+    "dataElement": "XZDUQ4eARGM",
+    "row": 2,
+    "value": "0"
+   },
+   {
+    "column": 2,
+    "categoryOptionCombo": "WBH8uUpt9Pj",
+    "dataElement": "W0Iokwlb7Eb",
+    "row": 3,
+    "value": "0"
+   },
+   {
+    "column": 2,
+    "categoryOptionCombo": "WBH8uUpt9Pj",
+    "dataElement": "tQEb7MCgsZL",
+    "row": 4,
+    "value": "0"
+   },
+   {
+    "column": 2,
+    "categoryOptionCombo": "WBH8uUpt9Pj",
+    "dataElement": "zZ458qXHCeO",
+    "row": 5,
+    "value": "0"
+   },
+   {
+    "column": 3,
+    "categoryOptionCombo": "z12EITtQb34",
+    "dataElement": "Z49zo2sYBI8",
+    "row": 1,
+    "value": "1"
+   },
+   {
+    "column": 3,
+    "categoryOptionCombo": "z12EITtQb34",
+    "dataElement": "XZDUQ4eARGM",
+    "row": 2,
+    "value": "0"
+   },
+   {
+    "column": 3,
+    "categoryOptionCombo": "z12EITtQb34",
+    "dataElement": "W0Iokwlb7Eb",
+    "row": 3,
+    "value": "0"
+   },
+   {
+    "column": 3,
+    "categoryOptionCombo": "z12EITtQb34",
+    "dataElement": "tQEb7MCgsZL",
+    "row": 4,
+    "value": "0"
+   },
+   {
+    "column": 3,
+    "categoryOptionCombo": "z12EITtQb34",
+    "dataElement": "zZ458qXHCeO",
+    "row": 5,
+    "value": "0"
+   },
+   {
+    "column": 4,
+    "categoryOptionCombo": "iEFWXqdhqg9",
+    "dataElement": "Z49zo2sYBI8",
+    "row": 1,
+    "value": "1"
+   },
+   {
+    "column": 4,
+    "categoryOptionCombo": "iEFWXqdhqg9",
+    "dataElement": "XZDUQ4eARGM",
+    "row": 2,
+    "value": "2"
+   },
+   {
+    "column": 4,
+    "categoryOptionCombo": "iEFWXqdhqg9",
+    "dataElement": "W0Iokwlb7Eb",
+    "row": 3,
+    "value": "0"
+   },
+   {
+    "column": 4,
+    "categoryOptionCombo": "iEFWXqdhqg9",
+    "dataElement": "tQEb7MCgsZL",
+    "row": 4,
+    "value": "2"
+   },
+   {
+    "column": 4,
+    "categoryOptionCombo": "iEFWXqdhqg9",
+    "dataElement": "zZ458qXHCeO",
+    "row": 5,
+    "value": "0"
+   }
+  ],
+  "period": "202104",
+  "orgUnit": "y1Zt8YWUdNN"
+ },
+ "response": "{\"responseType\":\"ImportSummary\",\"status\":\"WARNING\",\"importOptions\":{\"idSchemes\":{},\"dryRun\":false,\"async\":false,\"importStrategy\":\"CREATE_AND_UPDATE\",\"mergeMode\":\"REPLACE\",\"reportMode\":\"FULL\",\"skipExistingCheck\":false,\"sharing\":false,\"skipNotifications\":false,\"skipAudit\":false,\"datasetAllowsPeriods\":false,\"strictPeriods\":false,\"strictDataElements\":false,\"strictCategoryOptionCombos\":false,\"strictAttributeOptionCombos\":false,\"strictOrganisationUnits\":false,\"requireCategoryOptionCombo\":false,\"requireAttributeOptionCombo\":false,\"skipPatternValidation\":false,\"ignoreEmptyCollection\":false,\"force\":false,\"skipLastUpdated\":false},\"description\":\"Import process completed successfully\",\"importCount\":{\"imported\":0,\"updated\":15,\"ignored\":5,\"deleted\":0},\"conflicts\":[{\"object\":\"Super_Cereal\",\"value\":\"value_not_zero_or_positive_integer, must match data element type: zZ458qXHCeO\"},{\"object\":\"Plumpy_Nut\",\"value\":\"value_not_zero_or_positive_integer, must match data element type: tQEb7MCgsZL\"},{\"object\":\"Other_Nutritional_Supplements\",\"value\":\"value_not_zero_or_positive_integer, must match data element type: W0Iokwlb7Eb\"},{\"object\":\"F75\",\"value\":\"value_not_zero_or_positive_integer, must match data element type: XZDUQ4eARGM\"},{\"object\":\"F100\",\"value\":\"value_not_zero_or_positive_integer, must match data element type: Z49zo2sYBI8\"}],\"dataSetComplete\":\"false\"}"
+}

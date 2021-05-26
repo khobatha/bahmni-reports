@@ -1,0 +1,1 @@
+{"exception": "org.springframework.web.client.ResourceAccessException: I/O error on POST request for \"http://hmis.gov.ls/dhis_upgrade/api/dataValueSets\": hmis.gov.ls; nested exception is java.net.UnknownHostException: hmis.gov.ls"}

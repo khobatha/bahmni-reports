@@ -1,0 +1,72 @@
+Event,Time,User,Comment,Status,DataFile
+Regimens List Report Submission,Tue May 18 02:01:39 SAST 2021,"superman",Testing,Failure,/dhis-integration-data/data_submitted_on_20210518020139.json
+Regimens List Report Submission,Tue May 18 02:04:14 SAST 2021,"superman",Testing,Failure,/dhis-integration-data/data_submitted_on_20210518020414.json
+Regimens List Report Submission,Tue May 18 02:04:41 SAST 2021,"superman",Testing,Failure,/dhis-integration-data/data_submitted_on_20210518020441.json
+Regimens List Report Submission,Tue May 18 02:05:57 SAST 2021,"superman",Testing,Success,/dhis-integration-data/data_submitted_on_20210518020550.json
+ Nutritional Supplement Report Submission,Tue May 18 22:02:47 SAST 2021,"superman",Testing,Failure,/dhis-integration-data/data_submitted_on_20210518220246.json
+ Nutritional Supplement Report Submission,Tue May 18 22:03:48 SAST 2021,"superman",Testing,Failure,/dhis-integration-data/data_submitted_on_20210518220348.json
+ Nutritional Supplement Report Submission,Tue May 18 22:05:55 SAST 2021,"superman",Testing,Failure,/dhis-integration-data/data_submitted_on_20210518220555.json
+Nutritional Supplement Report Submission,Tue May 18 22:06:17 SAST 2021,"superman",Testing,Failure,/dhis-integration-data/data_submitted_on_20210518220617.json
+Nutritional Supplement Report Submission,Tue May 18 22:07:53 SAST 2021,"superman",Testing,Failure,/dhis-integration-data/data_submitted_on_20210518220753.json
+Nutritional Supplement Report Submission,Tue May 18 22:20:35 SAST 2021,"superman",Test,Failure,/dhis-integration-data/data_submitted_on_20210518222032.json
+Nutritional Supplement Report Submission,Tue May 18 22:55:50 SAST 2021,"superman",Incompleted,Failure,/dhis-integration-data/data_submitted_on_20210518225549.json
+Nutritional Supplement Report Submission,Tue May 18 23:41:54 SAST 2021,"superman",Incompleted,Failure,/dhis-integration-data/data_submitted_on_20210518234151.json
+Nutritional Supplement Report Submission,Wed May 19 12:27:36 SAST 2021,"superman",Incomplete,Failure,/dhis-integration-data/data_submitted_on_20210519122733.json
+Nutritional Supplement Report Submission,Wed May 19 12:27:51 SAST 2021,"superman",Testing,Failure,/dhis-integration-data/data_submitted_on_20210519122750.json
+Nutritional Supplement Report Submission,Wed May 19 15:35:58 SAST 2021,"superman",Incomplete,Failure,/dhis-integration-data/data_submitted_on_20210519153555.json
+Nutritional Supplement Report Submission,Wed May 19 15:39:09 SAST 2021,"superman",Incomplete,Failure,/dhis-integration-data/data_submitted_on_20210519153909.json
+Nutritional Supplement Report Submission,Wed May 19 15:39:36 SAST 2021,"superman",Incomplete,Failure,/dhis-integration-data/data_submitted_on_20210519153935.json
+Nutritional Supplement Report Submission,Wed May 19 15:45:26 SAST 2021,"superman",Testing,Failure,/dhis-integration-data/data_submitted_on_20210519154526.json
+Nutritional Supplement Report Submission,Wed May 19 15:52:00 SAST 2021,"superman",Incomplete,Failure,/dhis-integration-data/data_submitted_on_20210519155159.json
+Nutritional Supplement Report Submission,Wed May 19 20:30:33 SAST 2021,"superman",Incomplete,Failure,/dhis-integration-data/data_submitted_on_20210519203032.json
+Nutritional Supplement Report Submission,Wed May 19 20:40:28 SAST 2021,"superman",Incomplete,Failure,/dhis-integration-data/data_submitted_on_20210519204027.json
+Nutritional Supplement Report Submission,Wed May 19 20:48:42 SAST 2021,"superman",Incomplete,Failure,/dhis-integration-data/data_submitted_on_20210519204842.json
+Nutritional Supplement Report Submission,Wed May 19 20:49:53 SAST 2021,"superman",Test,Failure,/dhis-integration-data/data_submitted_on_20210519204952.json
+Nutritional Supplement Report Submission,Thu May 20 20:56:47 SAST 2021,"superman",Incomplete,Failure,/dhis-integration-data/data_submitted_on_20210520205643.json
+Nutritional Supplement Report Submission,Thu May 20 21:43:25 SAST 2021,"superman",Incomplete,Failure,/dhis-integration-data/data_submitted_on_20210520214324.json
+Nutritional Supplement Report Submission,Fri May 21 10:40:16 SAST 2021,"superman",joyceIncomplete,Failure,/dhis-integration-data/data_submitted_on_20210521104012.json
+Adult and Children on Nutritional Supplement Report Submission,Fri May 21 11:09:33 SAST 2021,"superman",Testing,Failure,/dhis-integration-data/data_submitted_on_20210521110933.json
+Adult and Children on Nutritional Supplement Report Submission,Fri May 21 13:49:30 SAST 2021,"superman",Testing,Failure,/dhis-integration-data/data_submitted_on_20210521134930.json
+Adult and Children on Nutritional Supplement Report Submission,Fri May 21 13:56:54 SAST 2021,"superman",Testing,Failure,/dhis-integration-data/data_submitted_on_20210521135654.json
+Adult and Children on Nutritional Supplement Report Submission,Fri May 21 13:58:39 SAST 2021,"superman",Test,Failure,/dhis-integration-data/data_submitted_on_20210521135837.json
+Adult and Children on Nutritional Supplement Report Submission,Sun May 23 14:58:38 SAST 2021,"superman",Incomplete,Failure,/dhis-integration-data/data_submitted_on_20210523145828.json
+Adult and Children on Nutritional Supplement Report Submission,Sun May 23 21:20:47 SAST 2021,"superman",Incompleted,Failure,/dhis-integration-data/data_submitted_on_20210523212037.json
+Adult and Children on Nutritional Supplement Report Submission,Sun May 23 22:13:49 SAST 2021,"superman",Incompleted,Failure,/dhis-integration-data/data_submitted_on_20210523221339.json
+Adult and Children on Nutritional Supplement Report Submission,Sun May 23 22:32:45 SAST 2021,"superman",Incompleted,Failure,/dhis-integration-data/data_submitted_on_20210523223235.json
+Adult and Children on Nutritional Supplement Report Submission,Mon May 24 20:41:21 SAST 2021,"superman",Testing,Failure,/dhis-integration-data/data_submitted_on_20210524204111.json
+Adult and Children on Nutritional Supplement Report Submission,Mon May 24 20:42:02 SAST 2021,"superman",Test,Failure,/dhis-integration-data/data_submitted_on_20210524204141.json
+Adult and Children on Nutritional Supplement Report Submission,Mon May 24 20:44:02 SAST 2021,"superman",Test,Failure,/dhis-integration-data/data_submitted_on_20210524204400.json
+Adult and Children on Nutritional Supplement Report Submission,Tue May 25 21:31:56 SAST 2021,"superman",Incomplete,Failure,/dhis-integration-data/data_submitted_on_20210525213105.json
+Adult and Children on Nutritional Supplement Report Submission,Tue May 25 21:45:47 SAST 2021,"superman",TestIncomplete,Failure,/dhis-integration-data/data_submitted_on_20210525214543.json
+Adult and Children on Nutritional Supplement Report Submission,Wed May 26 00:19:32 SAST 2021,"superman",Incomplete,Failure,/dhis-integration-data/data_submitted_on_20210526001928.json
+Adult and Children on Nutritional Supplement Report Submission,Wed May 26 00:29:40 SAST 2021,"superman",Incomplete,Failure,/dhis-integration-data/data_submitted_on_20210526002938.json
+Regimens List Report Submission,Wed May 26 00:37:13 SAST 2021,"superman",Hello,Success,/dhis-integration-data/data_submitted_on_20210526003711.json
+Regimens List Report Submission,Wed May 26 00:39:46 SAST 2021,"superman",Complete,Success,/dhis-integration-data/data_submitted_on_20210526003945.json
+Clients Who Received Cotrimox Prophylaxis Report Submission,Wed May 26 00:39:51 SAST 2021,"superman",Hello,Failure,/dhis-integration-data/data_submitted_on_20210526003951.json
+Adult and Children on Nutritional Supplement Report Submission,Wed May 26 00:40:00 SAST 2021,"superman",Incomplete,Failure,/dhis-integration-data/data_submitted_on_20210526003959.json
+Regimens List Report Submission,Wed May 26 01:03:42 SAST 2021,"superman",Complete,Success,/dhis-integration-data/data_submitted_on_20210526010334.json
+Clients Who Received Cotrimox Prophylaxis Report Submission,Wed May 26 01:03:49 SAST 2021,"superman",Incompleted,Failure,/dhis-integration-data/data_submitted_on_20210526010349.json
+Adult and Children on Nutritional Supplement Report Submission,Wed May 26 01:03:57 SAST 2021,"superman",Incomplete,Failure,/dhis-integration-data/data_submitted_on_20210526010355.json
+Regimens List Report Submission,Wed May 26 01:15:22 SAST 2021,"superman",Completed,Success,/dhis-integration-data/data_submitted_on_20210526011521.json
+Clients Who Received Cotrimox Prophylaxis Report Submission,Wed May 26 01:15:36 SAST 2021,"superman",Incompleted,Failure,/dhis-integration-data/data_submitted_on_20210526011536.json
+Adult and Children on Nutritional Supplement Report Submission,Wed May 26 01:15:41 SAST 2021,"superman",Incompleted,Failure,/dhis-integration-data/data_submitted_on_20210526011540.json
+Regimens List Report Submission,Wed May 26 01:21:36 SAST 2021,"superman",Completed,Success,/dhis-integration-data/data_submitted_on_20210526012136.json
+Regimens List Report Submission,Wed May 26 01:21:43 SAST 2021,"superman",Completedd,Success,/dhis-integration-data/data_submitted_on_20210526012143.json
+Regimens List Report Submission,Wed May 26 01:24:39 SAST 2021,"superman",Completed,Success,/dhis-integration-data/data_submitted_on_20210526012439.json
+Regimens List Report Submission,Wed May 26 01:24:53 SAST 2021,"superman",Completedd,Success,/dhis-integration-data/data_submitted_on_20210526012453.json
+Regimens List Report Submission,Wed May 26 01:29:13 SAST 2021,"superman",Complete,Success,/dhis-integration-data/data_submitted_on_20210526012913.json
+Regimens List Report Submission,Wed May 26 01:29:22 SAST 2021,"superman",Completed,Success,/dhis-integration-data/data_submitted_on_20210526012921.json
+Clients Who Received Cotrimox Prophylaxis Report Submission,Wed May 26 01:29:27 SAST 2021,"superman",Incompleted,Failure,/dhis-integration-data/data_submitted_on_20210526012927.json
+Adult and Children on Nutritional Supplement Report Submission,Wed May 26 01:29:36 SAST 2021,"superman",testIncomplete,Failure,/dhis-integration-data/data_submitted_on_20210526012935.json
+Regimens List Report Submission,Wed May 26 01:44:04 SAST 2021,"superman",Complete,Success,/dhis-integration-data/data_submitted_on_20210526014404.json
+Regimens List Report Submission,Wed May 26 01:44:19 SAST 2021,"superman",Completed,Success,/dhis-integration-data/data_submitted_on_20210526014418.json
+Clients Who Received Cotrimox Prophylaxis Report Submission,Wed May 26 01:44:28 SAST 2021,"superman",Incompleted,Failure,/dhis-integration-data/data_submitted_on_20210526014428.json
+Adult and Children on Nutritional Supplement Report Submission,Wed May 26 01:44:39 SAST 2021,"superman",Incomplete,Failure,/dhis-integration-data/data_submitted_on_20210526014438.json
+Regimens List Report Submission,Wed May 26 01:45:35 SAST 2021,"superman",Completed,Success,/dhis-integration-data/data_submitted_on_20210526014534.json
+Adult and Children on Nutritional Supplement Report Submission,Wed May 26 01:45:42 SAST 2021,"superman",Incomplete,Failure,/dhis-integration-data/data_submitted_on_20210526014541.json
+Clients Who Received Cotrimox Prophylaxis Report Submission,Wed May 26 01:46:47 SAST 2021,"superman",Incompletedd,Failure,/dhis-integration-data/data_submitted_on_20210526014647.json
+Regimens List Report Submission,Wed May 26 01:51:02 SAST 2021,"superman",TestingComplete,Success,/dhis-integration-data/data_submitted_on_20210526015102.json
+Regimens List Report Submission,Wed May 26 01:53:00 SAST 2021,"superman",TestingCompleted,Success,/dhis-integration-data/data_submitted_on_20210526015300.json
+Clients Who Received Cotrimox Prophylaxis Report Submission,Wed May 26 01:53:23 SAST 2021,"superman",Incompleted,Failure,/dhis-integration-data/data_submitted_on_20210526015323.json
+Adult and Children on Nutritional Supplement Report Submission,Wed May 26 01:53:53 SAST 2021,"superman",Incomplete,Failure,/dhis-integration-data/data_submitted_on_20210526015353.json
+Regimens List Report Submission,Wed May 26 02:25:27 SAST 2021,"superman",testComplete,Success,/dhis-integration-data/data_submitted_on_20210526022527.json
