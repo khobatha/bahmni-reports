@@ -806,6 +806,44 @@
         }
     },
 	
+	"ART Care - New and Current Number of Persons Started on ART": {
+        "name": "ART Care - New and Current Number of Persons Started on ART", 
+        "DHISProgram": true,
+        "type": "concatenated",
+        "config": {
+            "reports": [
+                {
+                    "name": "ART Care - New and Current Number of Persons Started on ART",
+                    "type": "MRSGeneric",
+                    "config": {
+                        "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/SECTION2.sql"
+                    }
+                }
+            ]
+        }
+    }
+	
+	,
+	
+	"TB Screening Among HIV Clients": {
+        "name": "TB Screening Among HIV Clients", 
+        "DHISProgram": true,
+        "type": "concatenated",
+        "config": {
+            "reports": [
+                {
+                    "name": "TB Screening Among HIV Clients",
+                    "type": "MRSGeneric",
+                    "config": {
+                        "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/SECTION3.sql"
+                    }
+                }
+            ]
+        }
+    }
+	
+	,
+	
 	"TB Prevention Therapy (TPT)": {
         "name": "TB Prevention Therapy (TPT)", 
         "DHISProgram": true,

@@ -1,0 +1,132 @@
+{
+  "orgUnit": "y1Zt8YWUdNN",
+  "reports": {
+        "TB Screening Among HIV Clients": {
+                "dataValues":[
+                        {
+                        "categoryOptionCombo": "gIRokZTOVff",
+                        "dataElement": "ENu4gYGSB17",
+                        "row": 1,
+                        "column": 2
+                        },
+						 {
+                        "categoryOptionCombo": "gIRokZTOVff",
+                        "dataElement": "KqqV0mqiW4J",
+                        "row": 2,
+                        "column": 2
+                        },
+						 {
+                        "categoryOptionCombo": "gIRokZTOVff",
+                        "dataElement": "Ich4yKGtogF",
+                        "row": 3,
+                        "column": 2
+                        },
+						 {
+                        "categoryOptionCombo": "gIRokZTOVff",
+                        "dataElement": "Tq3zWF4jLrL",
+                        "row": 4,
+                        "column": 2
+                        },
+						{
+                        "categoryOptionCombo": "gIRokZTOVff",
+                        "dataElement": "BBMSsL3eXbc",
+                        "row": 5,
+                        "column": 2
+                        },
+						
+						 {
+                        "categoryOptionCombo": "WBH8uUpt9Pj",
+                        "dataElement": "ENu4gYGSB17",
+                        "row": 1,
+                        "column": 3
+                        },
+						 {
+                        "categoryOptionCombo": "WBH8uUpt9Pj",
+                        "dataElement": "KqqV0mqiW4J",
+                        "row": 2,
+                        "column": 3
+                        },
+						 {
+                        "categoryOptionCombo": "WBH8uUpt9Pj",
+                        "dataElement": "Ich4yKGtogF",
+                        "row": 3,
+                        "column": 3
+                        },
+						 {
+                        "categoryOptionCombo": "WBH8uUpt9Pj",
+                        "dataElement": "Tq3zWF4jLrL",
+                        "row": 4,
+                        "column": 3
+                        },
+						{
+                        "categoryOptionCombo": "WBH8uUpt9Pj",
+                        "dataElement": "BBMSsL3eXbc",
+                        "row": 5,
+                        "column": 3
+                        },
+						
+						{
+                        "categoryOptionCombo": "z12EITtQb34",
+                        "dataElement": "ENu4gYGSB17",
+                        "row": 1,
+                        "column": 4
+                        },
+						 {
+                        "categoryOptionCombo": "z12EITtQb34",
+                        "dataElement": "KqqV0mqiW4J",
+                        "row": 2,
+                        "column": 4
+                        },
+						 {
+                        "categoryOptionCombo": "z12EITtQb34",
+                        "dataElement": "Ich4yKGtogF",
+                        "row": 3,
+                        "column": 4
+                        },
+						 {
+                        "categoryOptionCombo": "z12EITtQb34",
+                        "dataElement": "Tq3zWF4jLrL",
+                        "row": 4,
+                        "column": 4
+                        },
+						{
+                        "categoryOptionCombo": "z12EITtQb34",
+                        "dataElement": "BBMSsL3eXbc",
+                        "row": 5,
+                        "column": 4
+                        },
+						
+						{
+                        "categoryOptionCombo": "iEFWXqdhqg9",
+                        "dataElement": "ENu4gYGSB17",
+                        "row": 1,
+                        "column": 5
+                        },
+						 {
+                        "categoryOptionCombo": "iEFWXqdhqg9",
+                        "dataElement": "KqqV0mqiW4J",
+                        "row": 2,
+                        "column": 5
+                        },
+						 {
+                        "categoryOptionCombo": "iEFWXqdhqg9",
+                        "dataElement": "Ich4yKGtogF",
+                        "row": 3,
+                        "column": 5
+                        },
+						 {
+                        "categoryOptionCombo": "iEFWXqdhqg9",
+                        "dataElement": "Tq3zWF4jLrL",
+                        "row": 4,
+                        "column": 5
+                        },
+						{
+                        "categoryOptionCombo": "iEFWXqdhqg9",
+                        "dataElement": "BBMSsL3eXbc",
+                        "row": 5,
+                        "column": 5
+                        }
+                ]
+        }
+  }
+}
