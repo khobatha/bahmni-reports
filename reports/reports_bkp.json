@@ -63,14 +63,6 @@
     }
    },
    
-  "ART_report_regimen": {
-    "name": "Current on ART with regimens (Pivot)",
-    "type": "MRSGeneric",
-    "config": {
-      "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/includeregimen_with_weight_pivot.sql"
-   }
-  },
-   
  "viralloadresultsstatuslist": {
      "name": "Viral Load Results Status, within 3 months (List)",
      "type": "MRSGeneric",
@@ -757,118 +749,46 @@
       }
   },
 
-  "DHIS_Pre_ART": {
-    "name": "Pre-ART",
-    "type": "MRSGeneric",
-    "config": {
-        "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/SECTION1.sql"
-    }
-  },
-  
-  "DHIS_ART_CARE_A": {
-    "name": "ART CARE - NEW AND CURRENT ON ART",
-    "type": "MRSGeneric",
-    "config": {
-        "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/SECTION2.sql"
-    }
-  },
-  
-  "DHIS_ART_CARE_B": {
-    "name": "ART CARE - NEW AND CURRENT ON ART_SECTION B",
-    "type": "MRSGeneric",
-    "config": {
-        "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/SECTION2b.sql"
-    }
-  },
-  
-  "DHIS_TB_SCREENING": {
-    "name": "TB SCREENING",
-    "type": "MRSGeneric",
-    "config": {
-        "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/SECTION3.sql"
-    }
-  },
-  
-  "DHIS_ADULT_Regimen": {
-    "name": "ADULT REGIMENS",
-    "type": "MRSGeneric",
-    "config": {
-        "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/Regimen_Report_with_Age_Restrictions.sql"
-    }
-  },
-  
-  "DHIS_Children_Regimen": {
-    "name": "CHILDREN REGIMENS",
-    "type": "MRSGeneric",
-    "config": {
-        "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/Children_Regimen_Report_with_Weight.sql"
-    }
-  },
-  
-  "DHIS_CTX": {
-    "name": "COTRIMOX PROPHYLAXIS/DAPSONE",
-    "type": "MRSGeneric",
-    "config": {
-        "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/SECTION8.sql"
-    }
-  },
-  
-  "DHIS_NUTRITIONAL_SUPPLEMENT": {
-    "name": "NUTRITIONAL SUPPLEMENT",
-    "type": "MRSGeneric",
-    "config": {
-        "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/SECTION9.sql"
-    }   
+  "regimen_list": {
+      "name": "Regimen from ERP (List)",
+      "type": "ERPGeneric",
+      "config": {
+          "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/odoo_regimen.sql"
+      }
   },
 
   "arv_list": {
-    "name": "Pharmacy ARV Regimen",
-    "type": "ERPGeneric",
-    "config": {
-        "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/ARVs.sql"
-    }
-},
+      "name": "Pharmacy ARV Regimen",
+      "type": "ERPGeneric",
+      "config": {
+          "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/ARVs.sql"
+      }
+  },
 
   "arv_dispensing_list": {
-    "name": " Pharmacy ARV Dispensing Report",
-    "type": "ERPGeneric",
-    "config": {
-        "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/arv_dispensing.sql"
-    }
-    },
+      "name": " Pharmacy ARV Dispensing Report",
+      "type": "ERPGeneric",
+      "config": {
+          "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/arv_dispensing.sql"
+		  }
+      },
 
-"batch_numbers": {
-    "name": " Dispensing Orders report",
-    "type": "ERPGeneric",
-    "config": {
-        "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/batch.sql"
-    }
-},
+  "batch_numbers": {
+      "name": " Dispensing Orders report",
+      "type": "ERPGeneric",
+      "config": {
+          "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/batch.sql"
+			}
+	},
 
-"tally_numbers": {
-    "name": " Dispensing Summary Report",
-    "type": "ERPGeneric",
-    "config": {
-        "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/tally.sql"
-    }
-},
-
-"test": {
-  "name": " Test",
-  "type": "MRSGeneric",
-  "config": {
-      "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/test.sql"
-  }
-},
-
-"test1": {
-  "name": " Test1",
-  "type": "MRSGeneric",
-  "config": {
-      "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/test_.sql"
-  }
-}
-,
+  "tally_numbers": {
+      "name": " Daily Dispensing Tally Sheet",
+      "type": "ERPGeneric",
+      "config": {
+          "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/tally.sql"
+			}
+	},
+	
 	"Regimens List": {
         "name": "Regimens List",
         "DHISProgram": true,
