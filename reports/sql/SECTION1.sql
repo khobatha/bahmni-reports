@@ -26,7 +26,7 @@ FROM
         AND MONTH(value_datetime) = MONTH(CAST('2020-07-31' AS DATE)) 
         AND YEAR(value_datetime) = YEAR(CAST('2020-07-31' AS DATE))
         and concept_id = 2223) enrolled_a
-        WHERE age < 15)
+        WHERE age < 15 )
 
         UNION
         (SELECT  Id,Gender,'enrolled_This_Month' as Heading,'Adults'
@@ -48,7 +48,8 @@ FROM
         AND MONTH(value_datetime) = MONTH(CAST('2020-07-31' AS DATE)) 
         AND YEAR(value_datetime) = YEAR(CAST('2020-07-31' AS DATE))
         and concept_id = 2223) enrolled_b
-        WHERE age > 15) 
+        WHERE age > 15 
+		) 
 
         UNION
         (SELECT  Id,Gender,'ever_enrolled_PreART' as Heading,'Children' as Persons
@@ -100,6 +101,10 @@ FROM
                 )preart_b
         WHERE age > 15   
         )
+		
+		union
+ 
+		select '','','enrolled_This_Month','Adults'
 
         )all_enrolled
 ) all_joined
