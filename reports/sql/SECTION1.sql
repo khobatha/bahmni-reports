@@ -105,6 +105,10 @@ FROM
 		union
  
 		select '','','enrolled_This_Month','Adults'
+		
+		union
+ 
+		select '','','ever_enrolled_PreART','Adults'
 
         )all_enrolled
 ) all_joined
