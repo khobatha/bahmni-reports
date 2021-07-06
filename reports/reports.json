@@ -868,6 +868,7 @@
       "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/test_.sql"
   }
 }
+
 ,
 	"Regimens List": {
         "name": "Regimens List",
