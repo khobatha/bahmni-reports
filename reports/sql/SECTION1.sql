@@ -1,8 +1,8 @@
 SELECT Heading,	   
- IFNULL(Id IS NULL, 0, SUM(IF(Persons = 'Children' AND Gender = 'M', 1, 0))) AS Children_Males, 
- IFNULL(Id IS NULL, 0, SUM(IF(Persons = 'Children' AND Gender = 'F', 1, 0))) AS Children_Females,
- IFNULL(Id IS NULL, 0, SUM(IF(Persons = 'Adults' AND Gender = 'M', 1, 0))) AS Adults_Males, 
- IFNULL(Id IS NULL, 0, SUM(IF(Persons = 'Adults' AND Gender = 'F', 1, 0))) AS Adults_Females
+ IFNULL(SUM(IF(Persons = 'Children' AND Gender = 'M', 1, 0)),0) AS Children_Males, 
+ IFNULL(SUM(IF(Persons = 'Children' AND Gender = 'F', 1, 0)),0) AS Children_Females,
+ IFNULL(SUM(IF(Persons = 'Adults' AND Gender = 'M', 1, 0)),0) AS Adults_Males, 
+ IFNULL(SUM(IF(Persons = 'Adults' AND Gender = 'F', 1, 0)),0) AS Adults_Females
 
 FROM
     (    SELECT Id,Gender,Heading,Persons
