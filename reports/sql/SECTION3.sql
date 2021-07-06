@@ -383,7 +383,27 @@ FROM
                 AND YEAR(value_datetime) =  YEAR(CAST('2020-07-31' AS DATE))
             )        
         ) artPreart_a
-    WHERE Age > 15  )    
+    WHERE Age > 15  )
+    
+	UNION ALL
+	
+	SELECT  '','','ART_PreART_Seen',''
+	
+	UNION ALL
+	
+	SELECT  '','','ART_PreART_Screened',''
+	
+	UNION ALL
+	
+	SELECT  '','','Presumptive_reported',''
+	
+	UNION ALL
+	
+	SELECT  '','','Diagnosed',''
+	
+	UNION ALL
+	
+	SELECT  '','','Started',''   
         )all_TB                       
 
     )all_agg
