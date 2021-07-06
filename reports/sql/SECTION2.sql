@@ -1203,6 +1203,30 @@ from obs o
 														AND os.concept_id = 3752 AND DATEDIFF(os.value_datetime, CAST('#endDate#' AS DATE)) BETWEEN 0 AND 28
 											))
 )AS TwentyNineDayLost)				   
-				   
+union 
+select '','','1-4yrs','initiated_This_Month'	
+union 
+select '','','10-14yrs','Came_For_Refill'
+union 
+select '','','15-19yrs','MMD'
+union 
+select '','','20-24yrs','defaulted29to89Days'
+union 
+select '','','25-29yrs','defaulted29to89Days'
+union 
+select '','','30-34yrs','defaulted29to89Days'
+union 
+select '','','35-39yrs','defaulted29to89Days'
+union 
+select '','','40-44yrs','defaulted29to89Days'
+union 
+select '','','45-50yrs','defaulted29to89Days'
+union 
+select '','','5-9yrs','defaulted29to89Days'
+union 
+select '','','50+yrs','defaulted29to89Days'
+union 
+select '','','Under 1yr','defaulted29to89Days'	
+		   
 
 ) ART) All_ART group by age_group
