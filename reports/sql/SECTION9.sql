@@ -245,6 +245,26 @@ FROM
             and concept_id = 4167 and value_coded = 4166
              )others
         WHERE Age > 15)
+		
+		UNION ALL
+	
+		SELECT  '','','Plumpy_Nut',''
+		
+		UNION ALL
+	
+		SELECT  '','','F100',''
+		
+		UNION ALL
+	
+		SELECT  '','','F75',''
+		
+		UNION ALL
+	
+		SELECT  '','','Super_Cereal',''
+		
+		UNION ALL
+	
+		SELECT  '','','Other_Nutritional_Supplements',''
     )all_supplements    
     )all_agg
     GROUP BY Heading
