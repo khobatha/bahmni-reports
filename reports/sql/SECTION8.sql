@@ -119,3 +119,4 @@ FROM
     )all_CTX
     )all_agg
 	GROUP BY Persons
+	ORDER BY FIELD (Persons,'Under1yr','1yr-4yrs','5yr-14yrs','Adults')
