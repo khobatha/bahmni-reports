@@ -99,5 +99,21 @@ FROM
                         and concept_id = 3728 and value_numeric >= 1
             )ctx_d
             WHERE Age > 14)
+			
+			UNION
+			
+			SELECT  '','','Under1yr'
+			
+			UNION
+			
+			SELECT  '','','1yr-4yrs'
+			
+			UNION
+			
+			SELECT  '','','5yr-14yrs'
+			
+			UNION
+			
+			SELECT  '','','Adults'
     )all_CTX
     )all_agg
