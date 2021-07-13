@@ -100,19 +100,19 @@ FROM
             )ctx_d
             WHERE Age > 14)
 			
-			UNION
+			UNION ALL
 			
 			SELECT  '','','Under1yr'
 			
-			UNION
+			UNION ALL
 			
 			SELECT  '','','1yr-4yrs'
 			
-			UNION
+			UNION ALL
 			
 			SELECT  '','','5yr-14yrs'
 			
-			UNION
+			UNION ALL
 			
 			SELECT  '','','Adults'
     )all_CTX
