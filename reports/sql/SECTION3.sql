@@ -408,4 +408,4 @@ FROM
 
     )all_agg
 GROUP BY Heading   
-ORDER BY FIELD(Heading,'ART_PreART_Seen','ART_PreART_Screened','Presumptive_reported','Diagnosed','Started',) 
+ORDER BY FIELD (Heading,'ART_PreART_Seen','ART_PreART_Screened','Presumptive_reported','Diagnosed','Started') 
