@@ -875,7 +875,6 @@
 ,
 	"Regimens List": {
         "name": "Regimens List",
-        "DHISProgram": true,
         "type": "concatenated",
         "config": {
             "reports": [
@@ -949,7 +948,6 @@
 	
 	"TB Prevention Therapy (TPT)": {
         "name": "TB Prevention Therapy (TPT)", 
-        "DHISProgram": true,
         "type": "concatenated",
         "config": {
             "reports": [
