@@ -102,18 +102,20 @@ FROM
 			
 			UNION ALL
 			
-			SELECT  '','','Under1yr'
+			(SELECT  '','','Under1yr') 
 			
 			UNION ALL
 			
-			SELECT  '','','1yr-4yrs'
+			(SELECT  '','','1yr-4yrs') 
 			
 			UNION ALL
 			
-			SELECT  '','','5yr-14yrs'
+			(SELECT  '','','5yr-14yrs') 
 			
 			UNION ALL
 			
-			SELECT  '','','Adults'
+			(SELECT  '','','Adults') 
+			
     )all_CTX
     )all_agg
+	GROUP BY Persons
