@@ -773,7 +773,7 @@
     }
   },
   
-  "DHIS_ART_CARE_B": {
+  "ART CARE - NEW AND CURRENT ON ART_SECTION B": {
     "name": "ART CARE - NEW AND CURRENT ON ART_SECTION B",
     "type": "MRSGeneric",
 	"DHISProgram": true,
