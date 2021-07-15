@@ -773,15 +773,6 @@
     }
   },
   
-  "ART CARE - NEW AND CURRENT ON ART_SECTION B": {
-    "name": "ART CARE - NEW AND CURRENT ON ART_SECTION B",
-    "type": "MRSGeneric",
-	"DHISProgram": true,
-    "config": {
-        "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/SECTION2b.sql"
-    }
-  },
-  
   "DHIS_TB_SCREENING": {
     "name": "TB SCREENING",
     "type": "MRSGeneric",
@@ -919,6 +910,25 @@
                     "type": "MRSGeneric",
                     "config": {
                         "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/SECTION2.sql"
+                    }
+                }
+            ]
+        }
+    }
+	
+	,
+	
+	"ART CARE - NEW AND CURRENT ON ART_SECTION B": {
+        "name": "ART CARE - NEW AND CURRENT ON ART_SECTION B", 
+        "DHISProgram": true,
+        "type": "concatenated",
+        "config": {
+            "reports": [
+                {
+                    "name": "ART CARE - NEW AND CURRENT ON ART_SECTION B",
+                    "type": "MRSGeneric",
+                    "config": {
+                        "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/SECTION2b.sql"
                     }
                 }
             ]
