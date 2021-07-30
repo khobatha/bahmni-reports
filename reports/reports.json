@@ -1035,14 +1035,6 @@
                 }
 				,
 				{
-                    "name": "ART CARE - NEW AND CURRENT ON ART_SECTION B",
-                    "type": "MRSGeneric",
-                    "config": {
-                        "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/SECTION2b.sql"
-                    }
-                }
-				,
-				{
                     "name": "TB Screening Among HIV Clients",
                     "type": "MRSGeneric",
                     "config": {

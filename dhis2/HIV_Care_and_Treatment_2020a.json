@@ -1124,56 +1124,6 @@
                         "column": 5
                         }
                 ]
-        },
-		
-		"ART Care - New and Current Number of Persons Started on ART Section B": {
-                "dataValues":[
-                        {
-						"_comment": "transfer in"
-                        "categoryOptionCombo": "tUiK0vIsDaX",
-                        "dataElement": "i1TwYjSZY1C",
-                        "row": 1,
-                        "column": 2
-                        },
-						 {
-						"_comment": "transfer out"
-                        "categoryOptionCombo": "tUiK0vIsDaX",
-                        "dataElement": "OsHsdDsIaaO",
-                        "row": 2,
-                        "column": 2
-                        },
-						 {
-						"_comment": "restarted"
-                        "categoryOptionCombo": "tUiK0vIsDaX",
-                        "dataElement": "X2PAGRx7lhQ",
-                        "row": 3,
-                        "column": 2
-                        }
-						,
-						 {
-						"_comment": "died"
-                        "categoryOptionCombo": "tUiK0vIsDaX",
-                        "dataElement": "i1TwYjSZY1C",
-                        "row": 4,
-                        "column": 2
-                        }
-						,
-						 {
-						"_comment": "stopped"
-                        "categoryOptionCombo": "tUiK0vIsDaX",
-                        "dataElement": "nJ6YxF8Y6Zs",
-                        "row": 5,
-                        "column": 2
-                        }
-						,
-						 {
-						"_comment": "lost"
-                        "categoryOptionCombo": "tUiK0vIsDaX",
-                        "dataElement": "tuCe7xumbwp",
-                        "row": 6,
-                        "column": 2
-                        }
-                ]
         }
   }
 }
