@@ -268,3 +268,4 @@ FROM
     )all_supplements    
     )all_agg
     GROUP BY Heading
+	ORDER BY FIELD (Persons,'Plumpy_Nut','F100','F75','Super_Cereal','Other_Nutritional_Supplements')
