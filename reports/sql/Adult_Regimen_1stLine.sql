@@ -925,33 +925,33 @@ FROM
  UNION
  
  union 
-select '','','1c=AZT-3TC-NVP'	
+select '','','','1c=AZT-3TC-NVP'	
 union 
-select '','','1d=AZT-3TC-EFV'
+select '','','','1d=AZT-3TC-EFV'
 union 
-select '','','1e=TDF-3TC-NVP'
+select '','','','1e=TDF-3TC-NVP'
 union 
-select '','','1f=TDF-3TC-EFV'
+select '','','','1f=TDF-3TC-EFV'
 union 
-select '','','1f(a)TDF 3TC /EFV (400mg)'
+select '','','','1f(a)TDF 3TC /EFV (400mg)'
 union 
-select '','','1g=ABC-3TC-NVP'
+select '','','','1g=ABC-3TC-NVP'
 union 
-select '','','1h=ABC-3TC-EFV'
+select '','','','1h=ABC-3TC-EFV'
 union 
-select '','','1j=TDF-3TC-DTG'
+select '','','','1j=TDF-3TC-DTG'
 union 
-select '','','1k=ABC-3TC-DTG'
+select '','','','1k=ABC-3TC-DTG'
 union 
-select '','','1m=AZT-3TC-DTG'
+select '','','','1m=AZT-3TC-DTG'
 union 
-select '','','1n=TDF-3TC-LPV/r'
+select '','','','1n=TDF-3TC-LPV/r'
 union 
-select '','','1p=ABC-3TC-LPV/r'
+select '','','','1p=ABC-3TC-LPV/r'
 union 
-select '','','1q=AZT-3TC-LPV/r'
+select '','','','1q=AZT-3TC-LPV/r'
 union 
-select '','','Other'
+select '','','','Other'
  
  UNION
 
