@@ -1021,7 +1021,8 @@ FROM
 						 INNER JOIN reporting_age_group AS observed_age_group ON
 						  CAST('#endDate#' AS DATE) BETWEEN (DATE_ADD(DATE_ADD(person.birthdate, INTERVAL observed_age_group.min_years YEAR), INTERVAL observed_age_group.min_days DAY))
 						  AND (DATE_ADD(DATE_ADD(person.birthdate, INTERVAL observed_age_group.max_years YEAR), INTERVAL observed_age_group.max_days DAY))
-                   WHERE observed_age_group.report_group_name = 'Modified_Ages')Seen_Previous))Seen_and_Seen_Prev		  
+                   WHERE observed_age_group.report_group_name = 'Modified_Ages')
+				   Seen_Previous))Seen_and_Seen_Prev		  
 
 	inner join 
 
@@ -1079,8 +1080,13 @@ FROM
 			where datediff(latest_follow_up, max_observation) >=  56 AND datediff(latest_follow_up, max_observation)< 84
 			OR datediff(latest_follow_up, max_observation) >=  112 AND datediff(latest_follow_up, max_observation)< 140
 			OR datediff(latest_follow_up, max_observation) >=  140 AND datediff(latest_follow_up, max_observation)< 168
-			OR datediff(latest_follow_up, max_observation) >=  196)as supply_duration
-		ON 	Seen_and_Seen_Prev.Id = supply_duration.ID_
+			OR datediff(latest_follow_up, max_observation) >=  196)
+			as supply_duration
+	    ON 	Seen_and_Seen_Prev.Id = supply_duration.ID_
+		
+	UNION
+	
+	SELECT '','1c=AZT-3TC-NVP', '', ''
 
  where ARV_regimen in (2201,2203,2205,2207,3672,3673,4678,4679,4680,4681,4682,4683,2143)))txcurr_with_regimen) Total_Patients_On_ART_with_Regimen)as Regimen_Report)as Final_Regimen_Report
  Group by regimen_name
