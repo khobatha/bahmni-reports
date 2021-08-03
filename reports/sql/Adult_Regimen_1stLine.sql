@@ -1086,7 +1086,7 @@ FROM
 		
 	UNION
 	
-	SELECT '','1c=AZT-3TC-NVP', '', ''
+	SELECT '','2201', '', ''
 
  where ARV_regimen in (2201,2203,2205,2207,3672,3673,4678,4679,4680,4681,4682,4683,2143)))txcurr_with_regimen) Total_Patients_On_ART_with_Regimen)as Regimen_Report)as Final_Regimen_Report
  Group by regimen_name
