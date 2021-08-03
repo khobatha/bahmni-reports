@@ -924,33 +924,30 @@ FROM
 
  UNION
  
- union 
 select '','','','1c=AZT-3TC-NVP'	
-union 
+union all
 select '','','','1d=AZT-3TC-EFV'
-union 
+union all
 select '','','','1e=TDF-3TC-NVP'
-union 
+union all
 select '','','','1f=TDF-3TC-EFV'
-union 
-select '','','','1f(a)TDF 3TC /EFV (400mg)'
-union 
+union all
 select '','','','1g=ABC-3TC-NVP'
-union 
+union all
 select '','','','1h=ABC-3TC-EFV'
-union 
+union all
 select '','','','1j=TDF-3TC-DTG'
-union 
+union all
 select '','','','1k=ABC-3TC-DTG'
-union 
+union all
 select '','','','1m=AZT-3TC-DTG'
-union 
+union all
 select '','','','1n=TDF-3TC-LPV/r'
-union 
+union all
 select '','','','1p=ABC-3TC-LPV/r'
-union 
+union all
 select '','','','1q=AZT-3TC-LPV/r'
-union 
+union all
 select '','','','Other'
  
  UNION
