@@ -113,4 +113,5 @@ FROM
         )all_enrolled
 ) all_joined
 GROUP BY Heading
+ORDER BY FIELD (Heading,'enrolled_This_Month','ever_enrolled_PreART') 
 
