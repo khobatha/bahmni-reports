@@ -1083,10 +1083,6 @@ FROM
 			OR datediff(latest_follow_up, max_observation) >=  196)
 			as supply_duration
 	    ON 	Seen_and_Seen_Prev.Id = supply_duration.ID_
-		
-	UNION
-	
-	SELECT '','2201', '', ''
 
  where ARV_regimen in (2201,2203,2205,2207,3672,3673,4678,4679,4680,4681,4682,4683,2143)))txcurr_with_regimen) Total_Patients_On_ART_with_Regimen)as Regimen_Report)as Final_Regimen_Report
  Group by regimen_name
