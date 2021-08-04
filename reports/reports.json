@@ -972,6 +972,24 @@
             ]
         }
     }
+	,
+	
+	"Adult ARV Regimen Second Line": {
+        "name": "Adult ARV Regimen 2nd Line", 
+        "DHISProgram": true,
+        "type": "concatenated",
+        "config": {
+            "reports": [
+                {
+                    "name": "Adult ARV Regimen 2nd Line",
+                    "type": "MRSGeneric",
+                    "config": {
+                        "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/SECTION4_2ndLine.sql"
+                    }
+                }
+            ]
+        }
+    }
 	
 	,
 	
