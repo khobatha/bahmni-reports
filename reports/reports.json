@@ -1062,6 +1062,14 @@
                 }
 				,
 				{
+					"name": "Adult ARV Regimen 1st Line",
+                    "type": "MRSGeneric",
+                    "config": {
+                        "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/Adult_Regimen_1stLine.sql"
+                    }
+				}
+				,
+				{
                     "name": "Clients Who Received Cotrimox Prophylaxis",
                     "type": "MRSGeneric",
                     "config": {
