@@ -820,5 +820,75 @@ FROM
 			OR datediff(latest_follow_up, max_observation) >=  112)as supply_duration
 		ON 	Seen_and_Seen_Prev.Id = supply_duration.ID_
 
- where ARV_regimen in (2210,2209,3674,3675,3676,3677,3678,4689,4690,4691,4692,4693,4694,4695,4849,4850,4851)))txcurr_with_regimen) Total_Patients_On_ART_with_Regimen)as Regimen_Report)as Final_Regimen_Report
+ where ARV_regimen in (2210,2209,3674,3675,3676,3677,3678,4689,4690,4691,4692,4693,4694,4695,4849,4850,4851)))txcurr_with_regimen) Total_Patients_On_ART_with_Regimen)as Regimen_Report
+ 
+ UNION
+ 
+SELECT '','2c','',''
+
+UNION
+
+SELECT '','2d','',''
+
+UNION
+
+SELECT '','2e','',''
+
+UNION
+
+SELECT '','2f','',''
+
+UNION
+
+SELECT '','2g','',''
+
+UNION
+
+SELECT '','2h','',''
+
+UNION
+
+SELECT '',"2i",'',''
+
+UNION
+
+SELECT '',"2j",'',''
+
+UNION
+
+SELECT '',"2k",'',''
+
+UNION
+
+SELECT '',"2L",'',''
+
+UNION
+
+SELECT '',"2m",'',''
+
+UNION
+
+SELECT '',"2n",'',''
+
+UNION
+
+SELECT '',"2o",'',''
+
+UNION
+
+SELECT '',"2p",'',''
+
+UNION
+
+SELECT '',"2q",'',''
+
+UNION
+
+SELECT '',"2r",'',''
+
+UNION
+
+SELECT '',"2s",'',''
+ 
+ )as Final_Regimen_Report
  Group by regimen_name
