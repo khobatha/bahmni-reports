@@ -1103,6 +1103,10 @@ FROM
  
  UNION
  
+ SELECT '','1f=TDF-3TC-EFV-400g','',''
+ 
+ UNION
+ 
  SELECT '','1g=ABC-3TC-NVP','',''
  
  UNION
