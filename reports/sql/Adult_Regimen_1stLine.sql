@@ -1083,10 +1083,59 @@ FROM
 		ON 	Seen_and_Seen_Prev.Id = supply_duration.ID_
 
  where ARV_regimen in (2201,2203,2205,2207,3672,3673,4678,4679,4680,4681,4682,4683,2143)))txcurr_with_regimen) Total_Patients_On_ART_with_Regimen)as Regimen_Report
+
+  
+ UNION
+ 
+ SELECT '','1c=AZT-3TC-NVP','',''
+ 
+ UNION
+ 
+ SELECT '','1d=AZT-3TC-EFV','',''
+ 
+ UNION
+ 
+ SELECT '','1e=TDF-3TC-NVP','',''
+ 
+ UNION
+ 
+ SELECT '','1f=TDF-3TC-EFV','',''
+ 
+ UNION
+ 
+ SELECT '','1g=ABC-3TC-NVP','',''
+ 
+ UNION
+ 
+ SELECT '','1h=ABC-3TC-EFV','',''
+ 
+ UNION
+ 
+ SELECT '','1j=TDF-3TC-DTG','',''
  
  UNION
  
  SELECT '','1k=ABC-3TC-DTG','',''
+ 
+ UNION
+ 
+ SELECT '','1m=AZT-3TC-DTG','',''
+ 
+ UNION
+ 
+ SELECT '','1n=TDF-3TC-LPV/r','',''
+ 
+ UNION
+ 
+ SELECT '','1p=ABC-3TC-LPV/r','',''
+ 
+ UNION
+ 
+ SELECT '','1q=AZT-3TC-LPV/r','',''
+ 
+ UNION
+ 
+ SELECT '','Other','',''
  
  )as Final_Regimen_Report
  Group by regimen_name
