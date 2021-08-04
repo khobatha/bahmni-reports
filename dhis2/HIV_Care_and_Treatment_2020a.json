@@ -1691,6 +1691,112 @@
 						
                 ]
         }
+		,
+		
+		
+		
+		"Adult ARV Regimen 3rd Line": {
+                "dataValues":[
+                        {
+                        "categoryOptionCombo": "P9Q6sPuaCY7",
+                        "dataElement": "sgf6uW1U3Hh",
+                        "row": 1,
+                        "column": 2
+                        },
+						 {
+                        "categoryOptionCombo": "P9Q6sPuaCY7",
+                        "dataElement": "XX0ugIUXWOM",
+                        "row": 2,
+                        "column": 2
+                        },
+						 {
+                        "categoryOptionCombo": "P9Q6sPuaCY7",
+                        "dataElement": "sYswJ8GLE5l",
+                        "row": 3,
+                        "column": 2
+                        },
+						 {
+                        "categoryOptionCombo": "P9Q6sPuaCY7",
+                        "dataElement": "hEUmfMgmZzN",
+                        "row": 4,
+                        "column": 2
+                        },
+						{
+                        "categoryOptionCombo": "P9Q6sPuaCY7",
+                        "dataElement": "nPneThmcqoF",
+                        "row": 5,
+                        "column": 2
+                        },
+						{
+                        "categoryOptionCombo": "P9Q6sPuaCY7",
+                        "dataElement": "qzjD3osXDsr",
+                        "row": 6,
+                        "column": 2
+                        },
+						{
+                        "categoryOptionCombo": "P9Q6sPuaCY7",
+                        "dataElement": "bYhv6LrHXI0",
+                        "row": 7,
+                        "column": 2
+                        },
+						{
+                        "categoryOptionCombo": "P9Q6sPuaCY7",
+                        "dataElement": "ejfRCZGUTar",
+                        "row": 8,
+                        "column": 2
+                        },
+						 {
+                        "categoryOptionCombo": "bb4YHRc6bii",
+                        "dataElement": "sgf6uW1U3Hh",
+                        "row": 1,
+                        "column": 3
+                        },
+						
+						
+						 {
+                        "categoryOptionCombo": "bb4YHRc6bii",
+                        "dataElement": "XX0ugIUXWOM",
+                        "row": 2,
+                        "column": 3
+                        },
+						 {
+                        "categoryOptionCombo": "bb4YHRc6bii",
+                        "dataElement": "sYswJ8GLE5l",
+                        "row": 3,
+                        "column": 3
+                        },
+						 {
+                        "categoryOptionCombo": "bb4YHRc6bii",
+                        "dataElement": "hEUmfMgmZzN",
+                        "row": 4,
+                        "column": 3
+                        },
+						{
+                        "categoryOptionCombo": "bb4YHRc6bii",
+                        "dataElement": "nPneThmcqoF",
+                        "row": 5,
+                        "column": 3
+                        },
+						{
+                        "categoryOptionCombo": "bb4YHRc6bii",
+                        "dataElement": "qzjD3osXDsr",
+                        "row": 6,
+                        "column": 3
+                        },
+						{
+                        "categoryOptionCombo": "bb4YHRc6bii",
+                        "dataElement": "bYhv6LrHXI0",
+                        "row": 7,
+                        "column": 3
+                        },
+						{
+                        "categoryOptionCombo": "bb4YHRc6bii",
+                        "dataElement": "ejfRCZGUTar",
+                        "row": 8,
+                        "column": 3
+                        },
+                ]
+        }
 		
 		
 		
