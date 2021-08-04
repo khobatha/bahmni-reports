@@ -1359,6 +1359,342 @@
                 ]
         }
 		,
+		"Adult ARV Regimen 2nd Line": {
+                "dataValues":[
+                        {
+                        "categoryOptionCombo": "P9Q6sPuaCY7",
+                        "dataElement": "ymzKmfrNPO5",
+                        "row": 1,
+                        "column": 2
+                        },
+						 {
+                        "categoryOptionCombo": "P9Q6sPuaCY7",
+                        "dataElement": "u9R6jTyMCZZ",
+                        "row": 2,
+                        "column": 2
+                        },
+						 {
+                        "categoryOptionCombo": "P9Q6sPuaCY7",
+                        "dataElement": "imXNNFtypKZ",
+                        "row": 3,
+                        "column": 2
+                        },
+						 {
+                        "categoryOptionCombo": "P9Q6sPuaCY7",
+                        "dataElement": "fuY4KfjjlXj",
+                        "row": 4,
+                        "column": 2
+                        },
+						 {
+                        "categoryOptionCombo": "P9Q6sPuaCY7",
+                        "dataElement": "jylrb6opRPH",
+                        "row": 5,
+                        "column": 2
+                        },
+						 {
+                        "categoryOptionCombo": "P9Q6sPuaCY7",
+                        "dataElement": "H8aNsNYKvgc",
+                        "row": 6,
+                        "column": 2
+                        },
+						{
+                        "categoryOptionCombo": "P9Q6sPuaCY7",
+                        "dataElement": "Q9d2XQ3rQxP",
+                        "row": 7,
+                        "column": 2
+                        },
+						{
+                        "categoryOptionCombo": "P9Q6sPuaCY7",
+                        "dataElement": "o8DkeGaWp2T",
+                        "row": 8,
+                        "column": 2
+                        },
+						{
+                        "categoryOptionCombo": "P9Q6sPuaCY7",
+                        "dataElement": "ldzxaZcTXc1",
+                        "row": 9,
+                        "column": 2
+                        },
+						{
+                        "categoryOptionCombo": "P9Q6sPuaCY7",
+                        "dataElement": "F0TiyX3iMJ7",
+                        "row": 10,
+                        "column": 2
+                        },
+						{
+                        "categoryOptionCombo": "P9Q6sPuaCY7",
+                        "dataElement": "IC8Ue23FRXA",
+                        "row": 11,
+                        "column": 2
+                        },
+						{
+                        "categoryOptionCombo": "P9Q6sPuaCY7",
+                        "dataElement": "IlKv9YD1udT",
+                        "row": 12,
+                        "column": 2
+                        },
+						{
+                        "categoryOptionCombo": "P9Q6sPuaCY7",
+                        "dataElement": "OcKBGX2APjH",
+                        "row": 13,
+                        "column": 2
+                        }
+						,
+						{
+                        "categoryOptionCombo": "P9Q6sPuaCY7",
+                        "dataElement": "MRwEgBhw72e",
+                        "row": 14,
+                        "column": 2
+                        }
+						,
+						{
+                        "categoryOptionCombo": "P9Q6sPuaCY7",
+                        "dataElement": "bueSPKLxwAO",
+                        "row": 15,
+                        "column": 2
+                        }
+						,
+						{
+                        "categoryOptionCombo": "P9Q6sPuaCY7",
+                        "dataElement": "aVTdHxFAABR",
+                        "row": 16,
+                        "column": 2
+                        }
+						,
+						{
+                        "categoryOptionCombo": "P9Q6sPuaCY7",
+                        "dataElement": "owKR7LxHWGu",
+                        "row": 17,
+                        "column": 2
+                        }
+						,
+						
+						
+						{
+                        "categoryOptionCombo": "acGZ4u0GIvC",
+                        "dataElement": "ymzKmfrNPO5",
+                        "row": 1,
+                        "column": 3
+                        },
+						 {
+                        "categoryOptionCombo": "acGZ4u0GIvC",
+                        "dataElement": "u9R6jTyMCZZ",
+                        "row": 2,
+                        "column": 3
+                        },
+						 {
+                        "categoryOptionCombo": "acGZ4u0GIvC",
+                        "dataElement": "imXNNFtypKZ",
+                        "row": 3,
+                        "column": 3
+                        },
+						 {
+                        "categoryOptionCombo": "acGZ4u0GIvC",
+                        "dataElement": "fuY4KfjjlXj",
+                        "row": 4,
+                        "column": 3
+                        },
+						 {
+                        "categoryOptionCombo": "acGZ4u0GIvC",
+                        "dataElement": "jylrb6opRPH",
+                        "row": 5,
+                        "column": 3
+                        },
+						 {
+                        "categoryOptionCombo": "acGZ4u0GIvC",
+                        "dataElement": "H8aNsNYKvgc",
+                        "row": 6,
+                        "column": 3
+                        },
+						{
+                        "categoryOptionCombo": "acGZ4u0GIvC",
+                        "dataElement": "Q9d2XQ3rQxP",
+                        "row": 7,
+                        "column": 3
+                        },
+						{
+                        "categoryOptionCombo": "acGZ4u0GIvC",
+                        "dataElement": "o8DkeGaWp2T",
+                        "row": 8,
+                        "column": 3
+                        },
+						{
+                        "categoryOptionCombo": "acGZ4u0GIvC",
+                        "dataElement": "ldzxaZcTXc1",
+                        "row": 9,
+                        "column": 3
+                        },
+						{
+                        "categoryOptionCombo": "acGZ4u0GIvC",
+                        "dataElement": "F0TiyX3iMJ7",
+                        "row": 10,
+                        "column": 3
+                        },
+						{
+                        "categoryOptionCombo": "acGZ4u0GIvC",
+                        "dataElement": "IC8Ue23FRXA",
+                        "row": 11,
+                        "column": 3
+                        },
+						{
+                        "categoryOptionCombo": "acGZ4u0GIvC",
+                        "dataElement": "IlKv9YD1udT",
+                        "row": 12,
+                        "column": 3
+                        },
+						{
+                        "categoryOptionCombo": "acGZ4u0GIvC",
+                        "dataElement": "OcKBGX2APjH",
+                        "row": 13,
+                        "column": 3
+                        }
+						,
+						{
+                        "categoryOptionCombo": "acGZ4u0GIvC",
+                        "dataElement": "MRwEgBhw72e",
+                        "row": 14,
+                        "column": 3
+                        }
+						,
+						{
+                        "categoryOptionCombo": "acGZ4u0GIvC",
+                        "dataElement": "bueSPKLxwAO",
+                        "row": 15,
+                        "column": 3
+                        }
+						,
+						{
+                        "categoryOptionCombo": "acGZ4u0GIvC",
+                        "dataElement": "aVTdHxFAABR",
+                        "row": 16,
+                        "column": 3
+                        }
+						,
+						{
+                        "categoryOptionCombo": "acGZ4u0GIvC",
+                        "dataElement": "owKR7LxHWGu",
+                        "row": 17,
+                        "column": 3
+                        }
+						,
+						
+						
+						
+						{
+                        "categoryOptionCombo": "bb4YHRc6bii",
+                        "dataElement": "ymzKmfrNPO5",
+                        "row": 1,
+                        "column": 4
+                        },
+						 {
+                        "categoryOptionCombo": "bb4YHRc6bii",
+                        "dataElement": "u9R6jTyMCZZ",
+                        "row": 2,
+                        "column": 4
+                        },
+						 {
+                        "categoryOptionCombo": "bb4YHRc6bii",
+                        "dataElement": "imXNNFtypKZ",
+                        "row": 3,
+                        "column": 4
+                        },
+						 {
+                        "categoryOptionCombo": "bb4YHRc6bii",
+                        "dataElement": "fuY4KfjjlXj",
+                        "row": 4,
+                        "column": 4
+                        },
+						 {
+                        "categoryOptionCombo": "bb4YHRc6bii",
+                        "dataElement": "jylrb6opRPH",
+                        "row": 5,
+                        "column": 4
+                        },
+						 {
+                        "categoryOptionCombo": "bb4YHRc6bii",
+                        "dataElement": "H8aNsNYKvgc",
+                        "row": 6,
+                        "column": 4
+                        },
+						{
+                        "categoryOptionCombo": "bb4YHRc6bii",
+                        "dataElement": "Q9d2XQ3rQxP",
+                        "row": 7,
+                        "column": 4
+                        },
+						{
+                        "categoryOptionCombo": "bb4YHRc6bii",
+                        "dataElement": "o8DkeGaWp2T",
+                        "row": 8,
+                        "column": 4
+                        },
+						{
+                        "categoryOptionCombo": "bb4YHRc6bii",
+                        "dataElement": "ldzxaZcTXc1",
+                        "row": 9,
+                        "column": 4
+                        },
+						{
+                        "categoryOptionCombo": "bb4YHRc6bii",
+                        "dataElement": "F0TiyX3iMJ7",
+                        "row": 10,
+                        "column": 4
+                        },
+						{
+                        "categoryOptionCombo": "bb4YHRc6bii",
+                        "dataElement": "IC8Ue23FRXA",
+                        "row": 11,
+                        "column": 4
+                        },
+						{
+                        "categoryOptionCombo": "bb4YHRc6bii",
+                        "dataElement": "IlKv9YD1udT",
+                        "row": 12,
+                        "column": 4
+                        },
+						{
+                        "categoryOptionCombo": "bb4YHRc6bii",
+                        "dataElement": "OcKBGX2APjH",
+                        "row": 13,
+                        "column": 4
+                        }
+						,
+						{
+                        "categoryOptionCombo": "bb4YHRc6bii",
+                        "dataElement": "MRwEgBhw72e",
+                        "row": 14,
+                        "column": 4
+                        }
+						,
+						{
+                        "categoryOptionCombo": "bb4YHRc6bii",
+                        "dataElement": "bueSPKLxwAO",
+                        "row": 15,
+                        "column": 4
+                        }
+						,
+						{
+                        "categoryOptionCombo": "bb4YHRc6bii",
+                        "dataElement": "aVTdHxFAABR",
+                        "row": 16,
+                        "column": 4
+                        }
+						,
+						{
+                        "categoryOptionCombo": "bb4YHRc6bii",
+                        "dataElement": "owKR7LxHWGu",
+                        "row": 17,
+                        "column": 4
+                        }
+						
+						
+						
+                ]
+        }
+		
+		
+		
+		,
 		
 		
 		"Clients Who Received Cotrimox Prophylaxis": {
