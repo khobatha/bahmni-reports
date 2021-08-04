@@ -975,8 +975,8 @@
 	
 	,
 	
-	"Adult ARV Regimen at the End of the Month": {
-        "name": "Adult ARV Regimen at the End of the Month", 
+	"HIV Care and Treatment 2020": {
+        "name": "HIV Care and Treatment 2020", 
         "DHISProgram": true,
         "type": "concatenated",
         "config": {
