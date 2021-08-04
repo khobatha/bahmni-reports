@@ -1086,6 +1086,6 @@ FROM
  
  UNION 
  
- SELECT '','','','1k=ABC-3TC-DTG'
+ SELECT '','1k=ABC-3TC-DTG','',''
  
  Group by regimen_name
