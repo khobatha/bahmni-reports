@@ -784,7 +784,6 @@
   "DHIS_ADULT_Regimen": {
     "name": "ADULT REGIMENS",
     "type": "MRSGeneric",
-	"DHISProgram": true,
     "config": {
         "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/Regimen_Report_with_Age_Restrictions.sql"
     }
@@ -793,7 +792,6 @@
   "DHIS_Children_Regimen": {
     "name": "CHILDREN REGIMENS",
     "type": "MRSGeneric",
-	"DHISProgram": true,
     "config": {
         "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/Children_Regimen_Report_with_Weight.sql"
     }
