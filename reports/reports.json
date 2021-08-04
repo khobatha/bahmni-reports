@@ -1081,12 +1081,12 @@
                 }
 				,
 				{
-					"name": "Adult ARV Regimen First Line",
+                    "name": "Adult ARV Regimen at the End of the Month - 1st Line",
                     "type": "MRSGeneric",
                     "config": {
-                        "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/SECTION4.sql"
+                        "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/SECTION4_1stLine.sql"
                     }
-				}
+                }
 				,
 				{
                     "name": "Clients Who Received Cotrimox Prophylaxis",
