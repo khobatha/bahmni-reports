@@ -1065,7 +1065,7 @@
 					"name": "Adult ARV Regimen First Line",
                     "type": "MRSGeneric",
                     "config": {
-                        "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/Adult_Regimen_1stLine.sql"
+                        "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/SECTION4.sql"
                     }
 				}
 				,
