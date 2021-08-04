@@ -956,7 +956,7 @@
 	
 	,
 	
-	"Adult ARV Regimen 1st Line": {
+	"Adult ARV Regimen First Line": {
         "name": "Adult ARV Regimen 1st Line", 
         "DHISProgram": true,
         "type": "concatenated",
