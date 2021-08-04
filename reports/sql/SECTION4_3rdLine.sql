@@ -545,5 +545,43 @@ FROM
 			where datediff(latest_follow_up, max_observation) >=  56 )as supply_duration
 		ON 	Seen_and_Seen_Prev.Id = supply_duration.ID_
 
- where ARV_regimen in (3683,3684,3685,4706,4707,4708,4709,4710)))txcurr_with_regimen) Total_Patients_On_ART_with_Regimen)as Regimen_Report)as Final_Regimen_Report
+ where ARV_regimen in (3683,3684,3685,4706,4707,4708,4709,4710)))txcurr_with_regimen) Total_Patients_On_ART_with_Regimen)as Regimen_Report
+ 
+ UNION
+ 
+SELECT '',"3a",'',''
+
+
+UNION
+ 
+SELECT '',"3b",'',''
+
+
+UNION
+ 
+SELECT '',"3c",'',''
+
+
+UNION
+ 
+SELECT '',"3d",'',''
+
+
+UNION
+ 
+SELECT '',"3e",'',''
+
+UNION
+ 
+SELECT '',"3f",'',''
+
+UNION
+ 
+SELECT '',"3g",'',''
+
+UNION
+ 
+SELECT '',"3h",'',''
+ 
+ )as Final_Regimen_Report
  Group by regimen_name
