@@ -1054,10 +1054,10 @@
                 }
 				,
 				{
-                    "name": "Adult ARV Regimen 1st Line",
+                    "name": "TB Screening Among HIV Clients",
                     "type": "MRSGeneric",
                     "config": {
-                        "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/Adult_Regimen_1stLine.sql"
+                        "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/SECTION3.sql"
                     }
                 }
 				,
