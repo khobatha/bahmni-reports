@@ -975,6 +975,25 @@
 	
 	,
 	
+	"Adult ARV Regimen at the End of the Month": {
+        "name": "Adult ARV Regimen at the End of the Month", 
+        "DHISProgram": true,
+        "type": "concatenated",
+        "config": {
+            "reports": [
+                {
+                    "name": "Adult ARV Regimen at the End of the Month - 1st Line",
+                    "type": "MRSGeneric",
+                    "config": {
+                        "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/SECTION4_1stLine.sql"
+                    }
+                }
+            ]
+        }
+    }
+	
+	,
+	
 	"TB Prevention Therapy (TPT)": {
         "name": "TB Prevention Therapy (TPT)", 
         "type": "concatenated",
