@@ -981,6 +981,14 @@
         "type": "concatenated",
         "config": {
             "reports": [
+				{
+                    "name": "HIV Care - New and Current Number of Persons Enrolled on Pre-ART",
+                    "type": "MRSGeneric",
+                    "config": {
+                        "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/SECTION1.sql"
+                    }
+                }
+				,
                 {
                     "name": "Adult ARV Regimen at the End of the Month - 1st Line",
                     "type": "MRSGeneric",
