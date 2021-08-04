@@ -956,14 +956,14 @@
 	
 	,
 	
-	"On 1st-line ARV Regimen": {
-        "name": "On 1st-line ARV Regimen", 
+	"Adult ARV Regimen 1st Line": {
+        "name": "Adult ARV Regimen 1st Line", 
         "DHISProgram": true,
         "type": "concatenated",
         "config": {
             "reports": [
                 {
-                    "name": "On 1st-line ARV Regimen",
+                    "name": "Adult ARV Regimen 1st Line",
                     "type": "MRSGeneric",
                     "config": {
                         "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/Adult_Regimen_1stLine.sql"
@@ -1062,7 +1062,7 @@
                 }
 				,
 				{
-                    "name": "On 1st-line ARV Regimen",
+                    "name": "Adult ARV Regimen 1st Line",
                     "type": "MRSGeneric",
                     "config": {
                         "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/Adult_Regimen_1stLine.sql"
