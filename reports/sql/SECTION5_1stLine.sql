@@ -287,39 +287,22 @@ LEFT OUTER JOIN
 where ARV_regimen in (2202,2204,3679,3680,4684,4685,4686,4687,4688)
 
 UNION
-
 SELECT '','','','4c=AZT-3TC-NVP'
-
 UNION
-
 SELECT '','','','4d=AZT-3TC-EFV'
-
 UNION
-
 SELECT '','','','4e=ABC-3TC-NVP'
-
 UNION
-
 SELECT '','','','4f=ABC-3TC-EFV'
-
 UNION
-
 SELECT '','','','4g=AZT-3TC-LPV/r'
-
 UNION
-
 SELECT '','','','4h=ABC-3TC-LPV/r'
-
 UNION
-
 SELECT '','','','4j=TDF-3TC-DTG (TLD)'
-
 UNION
-
 SELECT '','','','4k=ABC-3TC-DTG'
-
 UNION
-
 SELECT '','','','4l=AZT-3TC-DTG'
 
 
