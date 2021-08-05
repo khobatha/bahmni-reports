@@ -301,6 +301,8 @@ UNION
 SELECT '','','','5g=AZT-3TC-ATV/r'
 UNION
 SELECT '','','','5h=ABC-3TC-ATV/r'
+UNION
+SELECT '','','','Other'
 
 
 )txcurr_with_regimen
