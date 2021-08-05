@@ -18,9 +18,9 @@ when ARV_regimen = 3679 then '4e=ABC-3TC-NVP'
 when ARV_regimen = 3680 then '4f=ABC-3TC-EFV'
 when ARV_regimen = 4684 then '4g=AZT-3TC-LPV/r'
 when ARV_regimen = 4685 then '4h=ABC-3TC-LPV/r'
-when ARV_regimen = 4686 then '4J=TDF-3TC-DTG (TLD)'
-when ARV_regimen = 4687 then '4K=ABC-3TC-DTG'
-when ARV_regimen = 4688 then '4L=AZT-3TC-DTG'
+when ARV_regimen = 4686 then '4j=TDF-3TC-DTG (TLD)'
+when ARV_regimen = 4687 then '4k=ABC-3TC-DTG'
+when ARV_regimen = 4688 then '4l=AZT-3TC-DTG'
 else 'Other' end as regimen_name
 FROM
 (Select Id, Age, ARV_regimen, Weight_
@@ -312,15 +312,15 @@ SELECT '','','','4h=ABC-3TC-LPV/r'
 
 UNION
 
-SELECT '','','','4J=TDF-3TC-DTG (TLD)'
+SELECT '','','','4j=TDF-3TC-DTG (TLD)'
 
 UNION
 
-SELECT '','','','4K=ABC-3TC-DTG'
+SELECT '','','','4k=ABC-3TC-DTG'
 
 UNION
 
-SELECT '','','','4L=AZT-3TC-DTG'
+SELECT '','','','4l=AZT-3TC-DTG'
 
 
 )txcurr_with_regimen

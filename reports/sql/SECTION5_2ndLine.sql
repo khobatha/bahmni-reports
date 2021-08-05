@@ -283,5 +283,25 @@ LEFT OUTER JOIN
 			)weight
 		on Seen_and_Seen_Prev.Id = weight.person_id)txcurr_with_weight
 
-where ARV_regimen in (3681,3682,4696,4697,4698,4699,4700,4701))txcurr_with_regimen
+where ARV_regimen in (3681,3682,4696,4697,4698,4699,4700,4701)
+
+UNION
+SELECT '','','','5a=AZT-3TC-LPV/r'
+UNION
+SELECT '','','','5b=ABC-3TC-LPV/r'
+UNION
+SELECT '','','','5c=ABC-3TC-DRV/r'
+UNION
+SELECT '','','','5d=AZT-3TC-DRV/r'
+UNION
+SELECT '','','','5e=AZT-3TC+ABC'
+UNION
+SELECT '','','','5f=AZT-3TC-DTG'
+UNION
+SELECT '','','','5g=AZT-3TC-ATV/r'
+UNION
+SELECT '','','','5h=ABC-3TC-ATV/r'
+
+
+)txcurr_with_regimen
 Group by regimen_name
