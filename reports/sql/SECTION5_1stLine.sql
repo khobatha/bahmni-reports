@@ -304,6 +304,8 @@ UNION
 SELECT '','','','4k=ABC-3TC-DTG'
 UNION
 SELECT '','','','4l=AZT-3TC-DTG'
+UNION
+SELECT '','','','Other'
 
 
 )txcurr_with_regimen

@@ -295,6 +295,8 @@ UNION
 SELECT '','','','6e=RAL+DRV/r'
 UNION
 SELECT '','','','6f=AZT+3TC+DRV/r+ETV'
+UNION
+SELECT '','','','Other'
 
 )txcurr_with_regimen
 Group by regimen_name
