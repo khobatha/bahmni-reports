@@ -1128,6 +1128,30 @@
                 }
 				,
 				{
+                    "name": "Children ARV Regimen 1st Line",
+                    "type": "MRSGeneric",
+                    "config": {
+                        "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/SECTION5_1stLine.sql"
+                    }
+                }
+				,
+				{
+                    "name": "Children ARV Regimen 2nd Line",
+                    "type": "MRSGeneric",
+                    "config": {
+                        "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/SECTION5_2ndLine.sql"
+                    }
+                }
+				,
+				{
+                    "name": "Children ARV Regimen 3rd Line",
+                    "type": "MRSGeneric",
+                    "config": {
+                        "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/SECTION5_3rdLine.sql"
+                    }
+                }
+				,
+				{
                     "name": "Clients Who Received Cotrimox Prophylaxis",
                     "type": "MRSGeneric",
                     "config": {
